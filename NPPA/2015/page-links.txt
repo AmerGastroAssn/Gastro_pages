@@ -1,0 +1,73 @@
+2015
+Session 1: Esophagus and Stomach
+
+/on-demand/2015/8/14/esophageal-motility-and-functional-esophageal-disorders
+/on-demand/2015/8/14/gastroparesis
+/on-demand/2015/8/14/cyclical-vomiting-syndrome
+/on-demand/2015/8/14/eosinophilic-esophagitis
+
+
+Session 2: Colon
+
+/on-demand/2015/8/14/crohn-s-disease
+/on-demand/2015/8/14/colorectal-cancer-syndromes
+/on-demand/2015/8/14/ulcerative-colitis
+
+
+Session 3: Liver
+
+/on-demand/2015/8/15/cirrhosis-and-transplantation
+/on-demand/2015/8/15/drug-induced-liver-disease
+
+
+Session 4: Breakouts
+
+/on-demand/2015/8/15/inpatient-management-of-common-gi-conditions
+/on-demand/2015/8/15/challenges-in-ibd
+/on-demand/2015/8/15/challenges-in-celiac-disease
+
+
+Session 5: Pancreas and Functional Bowel Disorders
+
+/on-demand/2015/8/16/endoscopic-management-of-necrotizing-pancreatitis
+/on-demand/2015/8/16/pancreatic-cancer
+/on-demand/2015/8/16/ercp-and-eus
+/on-demand/2015/8/16/ibs
+
+
+<!-- %%• 2015 •%% -->
+
+2014
+
+Session 1: IBD, Esophagus and Stomach
+
+/on-demand/2014/8/15/ibd-what-drugs-in-what-patients-and-what-else-do-i-need-to-know-about-immune-modulation-therapies
+/on-demand/2014/8/15/ibd-challenging-cases
+/on-demand/2014/8/15/diagnostic-testing-what-i-need-to-know-and-when-to-order
+/on-demand/2014/8/15/h-pylori-infection-consensus-and-controversy
+/on-demand/2014/8/15/gerd-and-refractory-gerd-a-case-based-approach
+/on-demand/2014/8/15/eoe-diagnosis-and-management
+/on-demand/2014/8/15/achalasia-and-esophageal-motility-disorders
+/on-demand/2014/8/15/gastroparesis-how-can-i-really-help-my-patients
+/on-demand/2014/8/15/acute-upper-gi-bleeding-the-inpatient-consult-and-management
+
+Session 2: Small and Large Intestine
+/on-demand/2014/8/15/celiac-disease-and-gluten-sensitivity
+/on-demand/2014/8/15/small-bowel-bacterial-overgrowth
+/on-demand/2014/8/15/ibs-challenging-cases
+/on-demand/2014/8/15/difficult-diarrheas-what-do-i-look-for-in-who-how-do-i-manage-it
+
+Session 3: Pancreas and Liver
+/on-demand/2014/8/16/acute-pancreatitis-inpatient-case-based-approach
+/on-demand/2014/8/16/autoimmune-and-hereditary-pancreatitis
+/on-demand/2014/8/16/pancreatic-cystic-lesions-what-are-they-and-when-do-i-need-to-worry
+/on-demand/2014/8/16/pancreatic-function-testing-what-i-need-to-know-and-when-to-order-when-evaluating-the-pancreas
+/on-demand/2014/8/16/a-practical-approach-to-the-patient-with-abnormal-lfts-acute-and-chronic
+/on-demand/2014/8/16/hcv-2014-and-beyond-the-interferon-era
+/on-demand/2014/8/16/hbv-curbside-consultation-and-case-discussion-in-special-populations
+/on-demand/2014/8/16/cirrhosis-management-a-case-based-approach-to-disease-management
+/on-demand/2014/8/16/incidentolomas-evaluation-and-management-of-incidental-liver-lesions
+
+Session 4: Breakouts
+/on-demand/2014/8/16/transplant-hepatology-post-transplant-management-what-i-need-to-know-as-the-community-gi-provider
+/on-demand/2014/8/16/nutrition-101-when-what-how-to-feed

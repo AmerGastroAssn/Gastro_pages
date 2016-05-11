@@ -1,0 +1,490 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Hero Image - Long Form</title>
+        <!-- *-------===== http://gastrodev.org/dev/Emails/email_redesign_templates/short_form_hero_image.html =====-------* -->
+        <style type="text/css">
+            table.wrapper {}
+
+            img.resize {}
+
+            .item {}
+
+            .item img {}
+
+            .item img.disappear {}
+
+            .item img.noresize {}
+
+            .item1 {}
+
+            .item1 {
+                width: 310px !important;
+            }
+
+            .item1 {
+                width: 480px !important;
+            }
+            /* Reset Styles */
+            /* Add 100px so mobile switch bar doesn't cover street address. */
+
+            body {
+                background-color: #ffffff;
+                color: #000000;
+                margin: 0;
+                padding: 0;
+            }
+
+            img {
+                outline: none;
+                text-decoration: none;
+            }
+
+            b br,
+            br,
+            em br,
+            i br,
+            strong br {
+                line-height: 100%;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                line-height: 100% !important;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            ul {
+                text-align: left;
+            }
+            a:link {
+                text-decoration: none!important;
+                color: #008FD4!important;
+            }
+
+            h1 a,
+            h2 a,
+            h3 a,
+            h4 a,
+            h5 a,
+            h6 a {
+                color: #0A5687!important;
+            }
+            h1 a:active,
+            h2 a:active,
+            h3 a:active,
+            h4 a:active,
+            h5 a:active,
+            h6 a:active {
+                color: #0A5687!important;
+                text-decoration: underline;
+            }
+            /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+            h1 a:visited,
+            h2 a:visited,
+            h3 a:visited,
+            h4 a:visited,
+            h5 a:visited,
+            h6 a:visited {
+                color: #008FD4 !important;
+            }
+            /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+
+            table td,
+            table tr {
+                border-collapse: collapse;
+            }
+            .yshortcuts,
+            .yshortcuts a,
+            .yshortcuts a span,
+            .yshortcuts a:hover,
+            .yshortcuts a:link,
+            .yshortcuts a:visited {
+                color: black;
+                text-decoration: none !important;
+                border-bottom: none !important;
+                background: none !important;
+            }
+            /* Body text color for the New Yahoo.  This example sets the font of Yahoo's Shortcuts to black. */
+            /* Preheader */
+
+            span.preheader {
+                display: none !important;
+            }
+
+            #preheader {
+                display: none !important;
+            }
+            @media screen and (max-width: 480px) {
+                table.wrapper {
+                    width: 310px !important;
+                }
+                img.resize {
+                    width: 310px !important;
+                    height: auto !important;
+                }
+                .item {
+                    width: 310px !important;
+                }
+                td#content.item {
+                    padding: 10px 0 10px 20px !important;
+                }
+                tr td#header.item {
+                    padding: 10px 10px 0 !important;
+                }
+                /*.item img {width: 310px !important;  height: auto !important;}*/
+                /*.item img.noresize {width: inherit !important;}*/
+                .item img.disappear {
+                    display: none !important;
+                }
+                .logotext {
+                    display: none;
+                }
+                td#seal {
+                    padding: 0 !important;
+                }
+                #forward-btn {
+                    max-width: 100px;
+                }
+                /* footer */
+                td.block {
+                    display: block !important;
+                    padding: 10px !important;
+                }
+                #account {
+                    padding: 0 !important;
+                }
+                td.social-footer {
+                    padding: 0 0.5em !important;
+                }
+                td.logo-footer {
+                    padding: 0 0 0 10px !important;
+                }
+            }
+            @media screen and (min-width: 481px) and (max-width: 699px) {
+                table.wrapper {
+                    width: 480px !important;
+                }
+                img.resize {
+                    width: 480px !important;
+                    height: auto !important;
+                }
+                .item {
+                    width: 480px !important;
+                }
+                /*.item img {width: 480px !important;  height: auto !important;}
+                  .item img.noresize {width: inherit !important;}*/
+                .item img.disappear {
+                    display: none !important;
+                }
+                .logotext {
+                    display: none;
+                }
+                td#seal {
+                    padding: 0 !important;
+                }
+                #forward-btn {
+                    max-width: 100px;
+                }
+                /* footer */
+                td.block {
+                    display: block !important;
+                    padding: 10px !important;
+                }
+                #account {
+                    padding: 0 !important;
+                }
+                td.social-footer {
+                    padding: 0 0.5em !important;
+                }
+                td.logo-footer {
+                    padding: 0 0 0 10px !important;
+                }
+            }
+
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    </head>
+
+    <body>
+        <!-- *%%%%%%%=== Preheader ===%%%%%%%* -->
+        <div id="preheader">
+            <singleline label="PreHeader">
+                <span style="display: none !important; font-size: 0px; color: #EAEEEF;"></span>
+            </singleline>
+        </div>
+        <!-- *%%%%%%%=== /Preheader ===%%%%%%%* -->
+        <!-- *-===== View Online =====-* -->
+        <table class="wrapper" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:5px; background-color: #EAEEEF;">
+            <tr bgcolor="#EAEEEF">
+                <td height="6"></td>
+            </tr>
+            <tr bgcolor="#EAEEEF">
+                <td align="center" bgcolor="#EAEEEF" style="color: #000000; font-size: 11px; font-weight: 400; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+                    Trouble viewing this message?
+                    <a href="%%VIEWONLINE%%" style="text-decoration: none; color: #008FD4">View it online.</a>
+
+                </td>
+            </tr>
+            <tr bgcolor="#EAEEEF">
+                <td height="6"></td>
+            </tr>
+            <!-- *-------===== mso spacer =====-------* -->
+            <tr>
+                <!--[if mso]><td style="background-color: #ffffff;"><p>&nbsp;</p></td><![endif]-->
+            </tr>
+            <tr>
+                <!--[if mso]><td style="background-color: #ffffff;"><p>&nbsp;</p></td><![endif]-->
+            </tr>
+            <!-- *-------=====/mso spacer =====-------* -->
+        </table>
+        <!-- *-===== /View Online =====-* -->
+
+        <table class="wrapper" width="700" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:5px; background-color: #EAEEEF;">
+
+            <!-- *-===== Header =====-* -->
+            <tbody>
+                <tr>
+                    <td align="center" style="background-color: #ffffff; padding: 20px 0 !important; text-align: center;">
+                        <!-- ********TABLE**********-->
+                        <table width="100" cellspacing="0" cellpadding="0" border="0" align="left" class="item">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table cellspacing="0" cellpadding="0" border="0" class="socialicons">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="left" width="150"></td>
+                                                    <td>
+                                                        <img src="https://s3.amazonaws.com/agaemails/stylesheets/spacer.gif" width="15" height="15" alt=""/>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- *%%%%%%%--=== Forward btn ===--%%%%%%%* -->
+                        <table width="100" cellspacing="0" cellpadding="0" border="0" align="right" valign="top" id="forward-btn" class="item" style="padding: 5px; width: 100px; text-align: center;">
+                            <tbody>
+                                <tr>
+                                    <td width="80">
+                                        <a href="%%SSL_FORWARDTHIS%%">
+                                            <img src="https://s3.amazonaws.com/agaemails/images/redesign_assets/finals/forward-btn.png" alt="Forward" style="width: 80px;"/>
+                                        </a>
+                                    </td>
+                                    <!--<td><a href="%%SSL_FORWARDTHIS%%" style="color:#ffffff!important;font-family:Arial, sans-serif;font-size:12px;font-weight:normal; text-decoration: none; text-transform: uppercase;">FORWARD</a></td>-->
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- *%%%%%%%--===/Forward btn ===--%%%%%%%* -->
+                    </td>
+                </tr>
+                <!-- #######-===== row =====-####### -->
+                <tr>
+                    <td align="center" style="background-color: #ffffff; padding: 0!important; text-align: center;">
+                        <!-- ********TABLE**********-->
+                        <table width="10" cellspacing="0" cellpadding="0" border="0" align="left" class="item">
+                            <tbody>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                        <!-- ********END TABLE**********-->
+                        <!-- ********TABLE**********-->
+                        <table width="500" cellspacing="0" cellpadding="0" border="0" align="center" class="item">
+                            <tbody>
+                                <tr>
+                                    <td style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; background-color: #ffffff; vertical-align: top; padding:0 0!important; text-align:center;" class="item">
+                                        <p>
+                                            <a target="_blank" style="color: #008FD4; text-decoration: none;" href="http://www.gastro.org/login?return_url=https://netforum.gastro.org/eweb/DynamicPage.aspx?WebCode=AGAEventReg&REg_evt_key=b56d0286-85f7-4d9c-9917-a9ee1fa68531&Site=aga">Register by May 31 and save $150</a>.
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- ********END TABLE**********-->
+                        <!-- ********TABLE**********-->
+                        <table width="240" cellspacing="0" cellpadding="0" border="0" align="right" class="item">
+                            <tbody>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                        <!-- ********END TABLE**********-->
+                        <!-- ********TABLE**********-->
+                        <table width="20" cellspacing="0" cellpadding="0" border="0" align="left" class="item">
+                            <tbody>
+                                <tr>
+                                    <td width="10" height="1" class="item"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- ********END TABLE**********-->
+                    </td>
+                </tr>
+                <!-- *-------=====/Header =====-------* -->
+
+                <!-- *-------===== mso spacer =====-------* -->
+                <tr>
+                    <!--[if mso]><td style="background-color: #ffffff;"><p>&nbsp;</p></td><![endif]-->
+                </tr>
+                <tr>
+                    <!--[if mso]><td style="background-color: #ffffff;"><p>&nbsp;</p></td><![endif]-->
+                </tr>
+                <!-- *-------=====/mso spacer =====-------* -->
+
+                <tr>
+                    <td class="item" align="left" style="padding: 0!important; text-align: center;">
+                        <a href="http://www.gastro.org/in-person/2016/8/19/2016-james-w-freston-conference-intestinal-metaplasia-in-the-esophagus-and-stomach-origins-differences-similarities-and-significance">
+                            <img src="https://s3.amazonaws.com/agaemailassets/2200-130EDU_16-3+Freston+Conference+Email+Header_v2.jpg" alt="Image" width="700" height="" class="resize" style="display: inline" border="0" align="top">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table width="698" border="0" align="left" cellpadding="0" cellspacing="0" class="item">
+                            <!-- *-------===== mso spacer =====-------* -->
+                            <tr>
+                                <!--[if mso]><td style="background-color: #EAEEEF;"><p>&nbsp;</p></td><![endif]-->
+                            </tr>
+                            <!-- *-------=====/mso spacer =====-------* -->
+                            <tr>
+                                <td align="left" width="15">
+                                    <img src="https://s3.amazonaws.com/agaemails/stylesheets/spacer.gif" width="15" height="15" alt=""/>
+                                </td>
+
+                                <td class="item" align="center" width="100" style="color: #000000; font-size: 16px; font-weight: normal; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 23px; vertical-align: top; padding: 20px 0 !important;">
+                                    <span style="font-size: 12px; line-height: 1.3em;">
+                                        <i>Funded by the Takeda Endowment in support of the James W. Freston Single Topic Conference.</i>
+                                    </span>
+
+                                    <p style="text-align: left; padding-top: 20px;">
+                                        Engage with senior thought leaders, examine diverse intestinal metaplasia topics and delve deeper into the pathogenesis, biology and clinical features of intestinal metaplasia.</p>
+                                    <p style="text-align: left;">Attending the
+                                        <a
+                                            style="text-decoration: none!important; color: #008FD4;"
+                                            target="_blank"
+                                            href="http://www.gastro.org/in-person/2016/8/19/2016-james-w-freston-conference-intestinal-metaplasia-in-the-esophagus-and-stomach-origins-differences-similarities-and-significance">2016 James W. Freston Conference</a>
+                                        is an excellent opportunity for you to gain a better understanding of how the intestinal metaplasia research community is advancing therapies and management strategies.&nbsp;Our expert faculty will provide greater insight on:&nbsp;</p>
+                                    <ul>
+                                        <li>How stem cells contribute to intestinal metaplasia.</li>
+                                        <li>Potential cells of origin for intestinal metaplasia.</li>
+                                        <li>The role of inflammation in the development of intestinal metaplasia.</li>
+                                        <li>Strengths and weaknesses of experimental models used to study intestinal metaplasia.</li>
+                                    </ul>
+                                    <p style="text-align: left;">The keynote address, led by
+                                        <a style="text-decoration: none!important; color: #008FD4;" target="_blank" href="http://www.bath.ac.uk/bio-sci/contacts/academics/david_tosh/">David Tosh, PhD</a>, will also examine the general principles of metaplasia and how they apply to the esophagus and stomach.</p>
+                                    <p style="text-align: left;">For program and registration details, visit
+                                        <a target="_blank" style="color:#008FD4; text-decoration: none;" href="http://www.gastro.org/in-person/2016/8/19/2016-james-w-freston-conference-intestinal-metaplasia-in-the-esophagus-and-stomach-origins-differences-similarities-and-significance">www.gastro.org/freston16</a>.
+
+                                    </p>
+                                    <p style="text-align: left;">
+                                        <span style="color:#0A5687; font-weight:bold; font-size:18px;">Call for Abstracts</span><br/>
+                                        Submit an abstract for an opportunity to showcase your intestinal metaplasia research at the 2016 conference as an oral or poster presentation. If selected to present, you'll receive a $800 NIH-supported travel award.
+                                        <a style="text-decoration: none!important; color: #008FD4;" target="_blank" href="https://amergastroassn.wufoo.com/forms/z1wty3lf0ap59g1/">Learn more</a>.&nbsp;</p>
+
+
+                                </td>
+                                <td align="left" width="15">
+                                    <img src="https://s3.amazonaws.com/agaemails/stylesheets/spacer.gif" width="15" height="15" alt=""/>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- *-------===== mso spacer =====-------* -->
+                <tr>
+                    <!--[if mso]><td style="background-color: #EAEEEF;"><p>&nbsp;</p></td><![endif]-->
+                </tr>
+                <!-- *-------=====/mso spacer =====-------* -->
+
+                <!-- ******** FOOTER **********-->
+                <table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="item">
+                    <tr>
+                        <td align="left" valign="top" bgcolor="#2c292e" class="cell">
+                            <table border="0" cellpadding="0" cellspacing="0" class="item">
+                                <tr>
+                                    <td align="left" valign="middle" class="block" style="padding: 10px 0 0 30px;">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="left" valign="middle" class="logo-footer" style="">
+                                                    <a href="#"><img src="https://s3.amazonaws.com/agaemails/images/redesign_assets/AGA+seal.png" alt="American Gastroenterological Association" style="padding: 0;" width="72" height="72" border="0"/></a>
+                                                </td>
+                                                <td align="left" valign="middle" style="padding: 0 0 0 20px;">
+                                                    <table border="0" cellpadding="3">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="https://s3.amazonaws.com/agaemailassets/cell_icon_sm.png" style="max-width: 12px; padding: 0;" alt=""/>
+                                                            </td>
+                                                            <td style="color: #ffffff; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+                                                                301-654-2055</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="https://s3.amazonaws.com/agaemailassets/pin_drop_icon_sm.png" style="max-width: 12px; padding: 0 10px 0 0;" alt=""/>
+                                                            </td>
+                                                            <td style="color: #ffffff; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">4930 Del Ray Ave.
+                                                                <br/>
+                                                                Bethesda, MD 20814
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td align="left" valign="middle" class="block" id="social" style="padding: 0 0 20px 100px;">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="left" valign="top" style="color:#a9a9a9;font-family: Helvetica, Arial, sans-serif;font-size:20px;font-weight:normal; padding: 15px 0 15px 20px;" colspan="4">
+                                                    Stay Connected
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" valign="top" class="social-footer" style="padding:0 10px;">
+                                                    <a href="https://www.facebook.com/AmerGastroAssn?ref=hl"><img src="http://www.highroadsolution.com/clients/aga/edigest/images/facebook.gif" alt="Facebook" width="55" height="54" border="0" style="display:block;"/></a>
+                                                </td>
+                                                <td align="left" valign="top" class="social-footer" style="padding:0 10px;">
+                                                    <a href="https://www.linkedin.com/grp/home?gid=915257"><img src="http://www.highroadsolution.com/clients/aga/edigest/images/instagram.gif" alt="LinkedIn" width="55" height="54" border="0" style="display:block;"/></a>
+                                                </td>
+                                                <td align="left" valign="top" class="social-footer" style="padding:0 10px;">
+                                                    <a href="https://www.youtube.com/channel/UC9gs7X1GwlFAqO0fEf0Tysg"><img src="http://www.highroadsolution.com/clients/aga/edigest/images/youtube.gif" alt="YouTube" width="55" height="54" border="0" style="display:block;"/></a>
+                                                </td>
+                                                <td align="left" valign="top" class="social-footer" style="padding:0 10px;">
+                                                    <a href="https://twitter.com/AmerGastroAssn?lang=en"><img src="http://www.highroadsolution.com/clients/aga/edigest/images/twitter.gif" alt="Twitter" width="55" height="54" border="0" style="display:block;"/></a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="top" bgcolor="#1e1c20" id="account" class="cell" style="padding:15px 0 25px 0;">
+                            <table border="0" cellpadding="5" cellspacing="0" class="item">
+                                <tr>
+                                    <td align="left" valign="top" class="opt-out" style="color:#ffffff;font-family: Helvetica, Arial, sans-serif;font-size:10px;line-height:20px;">
+                                        Copyright &copy; American Gastroenterological Association &bull; To opt out of AGA emails, change your
+                                        <a href="http://aga.highroadsolution.com/default.aspx?email=%%TO_EMAIL%%" style="color:#008fd4;text-decoration:none;">email preferences</a>.
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- ******** END FOOTER **********-->
+            </tbody>
+        </table>
+
+        <!-- *-------===== external css =====-------* -->
+        <link rel="stylesheet" href="https://s3.amazonaws.com/agaemails/stylesheets/main.css"/>
+    </body>
+
+</html>

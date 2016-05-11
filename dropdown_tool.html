@@ -1,0 +1,43 @@
+<!-- *-------===== jQuery Dropdown tool =====-------* -->
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.box').hide();
+        $('#dropdown').change(function() {
+            $('.box').hide();
+            $('#div' + $(this).val()).show();
+        });
+    });
+</script>
+<h2>Page name</h2>
+
+<h5>Intro text here</h5>
+
+<p><a name="top" target="_top"></a>Intro text here</p>
+
+<p><select id="dropdown" name="dropdown">
+    <option value="">Select</option>
+    <option value="idname">First section</option>
+    <option value="idname">Second section</option>
+</select></p>
+
+<!-- *-------===== 1 =====-------* -->
+<div class="box" id="firstId">
+    <h2>First Section</h2>
+
+
+
+    <p align="right"><a href="#top" target="_top"><small>Back to Top</small></a></p>
+</div>
+<!-- *-------=====/1 =====-------* -->
+
+
+<!-- *-------===== 2 =====-------* -->
+<div class="box" id="secondId">
+    <h2>Second Section</h2>
+
+
+
+    <p align="right"><a href="#top" target="_top"><small>Back to Top</small></a></p>
+</div>
+<!-- *-------=====/2 =====-------* -->

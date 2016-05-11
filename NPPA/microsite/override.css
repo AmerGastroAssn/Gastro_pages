@@ -1,0 +1,891 @@
+@charset "utf-8";
+
+/*
+NETWORK v2.3
+Author: eConverse Social Media
+URL: www.econversemedia.com
+
+The NETWORK theme was hand-crafted with coffee and love by eConverse Social Media. For assistance with additional branding, customization or design of this theme, please contact http://www.econversemedia.com
+
+*/
+
+body {
+    padding-top: 0px;
+}
+#MPOuterMost {
+    max-width: 100% !important;
+    overflow-x: hidden;
+}
+.home .content-overlap {
+    margin-bottom: -40px;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+.content-overlap .carousel-inner .item {
+    padding-top: 10px;
+    padding-left: 0 !important;
+}
+.content-overlap .carousel-indicators {
+    bottom: 50px;
+}
+
+/* Carousel Slide Show CSS */
+
+.HtmlContent .container, .contain-inner .HLLandingControl, .contain-inner .HtmlContent {
+    margin-left: 0px;
+    margin-right: 0px !important;
+    max-width: 1200px;
+    padding: 0;
+}
+.carousel-control {
+    width: 0%
+}
+.carousel-control {
+    background-image: none !important
+}
+img.drop-shadow {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(77, 36, 36, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(77, 36, 36, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(77, 36, 36, 0.75);
+}
+.btn-blank {
+    background-color: transparent;
+    border: 2px solid #fff
+}
+.interior div#MainCopy_ContentWrapper {
+    padding-top: 0px
+}
+.huge p.lead {
+    font-size: 34px
+}
+.rotate-me > h2 {
+    margin-bottom: 20px
+}
+.bg-full {
+    background-size: cover !important;
+    background-position: center !important
+}
+img.slide-bg.bgd {
+    display: none
+}
+.overlay1 {
+    padding: 0px !important;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.txtr-connects {
+    background-image: url(//s3.amazonaws.com/higherlogiccloudfront/Custom/Slider/Backgrounds/connects.png)
+}
+.txtr-connects2 {
+    background-image: url(//s3.amazonaws.com/higherlogiccloudfront/Custom/Slider/Backgrounds/connects2.png)
+}
+.txtr-calendar {
+    background-image: url(//s3.amazonaws.com/higherlogiccloudfront/Custom/Slider/Backgrounds/txtr-calendar.png)
+}
+.txtr-files {
+    background-image: url(//s3.amazonaws.com/higherlogiccloudfront/Custom/Slider/Backgrounds/txtr-docs.png)
+}
+.txtr-boxes {
+    background-image: url(//s3.amazonaws.com/higherlogiccloudfront/Custom/Slider/Backgrounds/txtr-boxes.png);
+    background-repeat: repeat
+}
+.txtr-swirl {
+    background-image: url(//s3.amazonaws.com/higherlogiccloudfront/Custom/Slider/Backgrounds/txtr-swirl.png)
+}
+.txtr-swirl2 {
+    background-image: url(//s3.amazonaws.com/higherlogiccloudfront/Custom/Slider/Backgrounds/txtr-swirl2.png)
+}
+.txtr-minigrid {
+    background-image: url(//s3.amazonaws.com/higherlogiccloudfront/Custom/Slider/Backgrounds/txtr-minigrid.png)
+}
+.txtr-minigrid2 {
+    background-image: url(//s3.amazonaws.com/higherlogiccloudfront/Custom/Slider/Backgrounds/txtr-minigrid2.png)
+}
+.txtr-diagonal {
+    background-image: url(//s3.amazonaws.com/higherlogiccloudfront/Custom/Slider/Backgrounds/txtr-diagonal.png)
+}
+.txtr-diagonal2 {
+    background-image: url(//s3.amazonaws.com/higherlogiccloudfront/Custom/Slider/Backgrounds/txtr-diagonal2.png)
+}
+.item h1 {
+    font-size: 45px;
+    background-color: transparent;
+    color: #fff
+}
+.bg-primarycolor {
+    background-color: [PrimaryColor]
+}
+.bg-secondarycolor {
+    background-color: [SecondaryColor]
+}
+.item.reverse * {
+    color: #fff
+}
+.bg-orange {
+    background-color: #f58026
+}
+.bg-purple {
+    background-color: #663b87
+}
+.bg-green {
+    background-color: #7cbf4a
+}
+.bg-darkgreen {
+    background-color: #398946
+}
+.bg-footer {
+    background-color: #2c292f
+}
+.bg-darkgray {
+    background-color: #2c292e;
+}
+.bg-blue {
+    background-color: #008baf
+}
+.bg-darkblue {
+    background-color: #3b5f8f
+}
+.bg-teal {
+    background-color: #00afa9
+}
+
+.bg-black {
+    background-color: #2c292e;
+}
+
+
+img.align-left {
+    float: left;
+    margin: 0px 20px 20px 0px
+}
+img.align-right {
+    float: right;
+    margin-left: 20px
+}
+img.cut-bottom {}
+p img.align-left {
+    margin-top: 6px
+}
+.carousel-inner {
+    text-align: center;
+    min-height: 200px;
+    width: 100%;
+    visibility: hidden
+}
+.item .container {
+    padding: 0px 0px;
+    position: absolute
+}
+.item {
+    padding: 0px;
+    width: 100%;
+    text-align: left
+}
+.logicon-fa h2:before {
+    color: [PrimaryColor];
+    margin-right: 8px
+}
+.reverse.logicon-fa h2:before {
+    color: #fff
+}
+.HtmlContent img {
+    max-width: 100%;
+    height: auto
+}
+.reverse a.btn-default {
+    color: #000;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+    img.align-right.cut-bottom {}
+    .stockdemo .item .container {
+        padding: 40px 0px;
+        height: 330px
+    }
+    .stockdemo .cycle-slide img.align-left {}
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    .huge p, .huge h1, .huge h2, .huge h3 {}
+    .huge h2 {
+        font-size: 30px
+    }
+    .huge h3 {
+        font-size: 24px
+    }
+    .huge p, .huge .btn {
+        font-size: 18px
+    }
+    .huge .btn {
+        margin-top: 15px;
+        margin-bottom: 20px
+    }
+    .item img.cut-bottom {
+        margin-top: 20px
+    }
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+    .item {
+        height: 430px;
+        overflow: hidden
+    }
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    img.align-right, img.align-left {
+        max-width: 100px;
+        float: left;
+        margin-right: 10px;
+        margin-left: 0px;
+        margin-bottom: 10px
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .cycle-slide h1, .item h1 {
+        font-size: 32px
+    }
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    img.align-right.cut-bottom {
+        display: none
+    }
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
+
+/* End of Carousel Slide Show CSS */
+
+@media only screen and (min-width: 992px) {
+    .SlideDeckWrapper {
+        margin: 0 -2000px -40px -2000px;
+    }
+}
+*/
+/********** FONTS ***********/
+
+
+/* headings, body, links, menus, buttons */
+
+@font-face {
+    font-family: 'nimbus-sans-condensed', "nimbus-sans-condensed", Helvetica, Arial, sans serif;
+}
+h1, h2, h3, h4, h5, ul.nav, .HLLandingControl .ByLine, .btn, .HLLandingControl.HLEngagement a, .SloganText, .breadcrumb {
+    font-family: 'nimbus-sans-condensed', "nimbus-sans-condensed", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+h1, .SloganText {
+    font-size: 150%;
+}
+h2, .HLLandingControl h3 a, .HLLandingControl.HLEngagement a, .community-list h3, .interior h2#Title, .interior .text-muted-h2 h2, .interior .ContentUserControl h2, .interior .text-muted-h2 div.col-md-3 h2 {
+    font-size: 120%;
+    font-weight: 600;
+    line-height: 1.1;
+}
+h3, .btn {
+    font-size: 100%;
+    font-weight: 600;
+}
+.MPheader .btn-default, #searchColumn .btn-default {
+    font-size: 10px;
+    margin: 0 !important;
+}
+h4, #MPAuxNav ul.level1 li a {
+    font-size: 100%;
+    font-weight: 600;
+}
+h5 {
+    font-size: 100%;
+}
+
+/********************* Basics **************************/
+
+body {
+    color: #464646;
+}
+.bodyBackground {
+    background-color: #ffffff !important;
+    padding-top: 10px;
+}
+.bodyBackground.interior {
+    background-color: #ffffff;
+}
+a {
+    color: #8cc63f;
+}
+a:hover {
+    color: #32525f;
+}
+.traditional-nav {
+    margin-bottom: 0px;
+}
+.home .no-pageTitle-padding {
+    padding-top: 0;
+}
+#NAV {
+    max-width: 100% !important;
+    border-bottom: 0px;
+    background-color: #2c292f;
+    margin: 0 auto;
+    padding: 0;
+}
+h1, .Heading1, .interior h2.ProfileUserName {
+    color: #ffffff;
+}
+#PageTitleH1, .interior h2.ProfileUserName {
+    color: #fff;
+    background-color: #008fd5;
+    padding: 20px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 550 !important;
+    margin-top: 0 !important;
+    max-width: 100%;
+}
+h2, .Heading2, h2 a, h2 a:hover, .text-muted-h2 h2 {
+    color: #ffffff;
+    background: #008fd5;
+    text-align: center;
+}
+.interior h2 {
+    color: #008fd5;
+    background-color: transparent;
+    text-align: left;
+}
+.thread-title h2 {
+    padding: 20px;
+}
+h3, .Heading3, h3 a, h3 a:hover {
+    color: #008fd5;
+}
+hr, hr.delimiter, .HLLandingControl ul li {
+    border-bottom-color: #e7e7e7;
+}
+.text-muted {
+    color: #7c98a3;
+}
+div.row.drItemSubHeader.highlightThread, .highlightThread, div.row.drItemSubHeader {
+    background-color: transparent;
+    color: #555555;
+}
+div.row.drItemSubHeader .CommentPanel a {
+    color: #555555;
+}
+.MPheader .pull-right {
+    float: none !important;
+    width: 100%;
+}
+.MPheader .inline {
+    display: inline;
+}
+.HLWelcome.HLWelcomeHeader {
+    float: right;
+}
+#MPAuxNav ul.level1 li a:last-child {
+    border-right: none;
+}
+.SloganText, .LogoImg {
+    display: block !important;
+    text-align: center;
+    padding: 5px;
+}
+#HEADER #Logo .LogoImg img, #HEADER #Logo .LogoImg img.img-responsive {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+/***** Interior Pages Basics ******/
+
+.interior div#MainCopy_ContentWrapper {
+    background-color: #ffffff;
+    border: 0px solid #eeeeee;
+    display: block;
+}
+.interior div[id$=ProfileImage] img {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-top: 0px;
+    max-width: 175px !important;
+    max-height: 175px !important;
+}
+.interior #ContentColumn.col-md-12 {
+    padding: auto;
+    align-content: center center;
+}
+.interior .ContentItemHTML .HtmlContent .container, .contain-inner .HLLandingControl, .contain-inner .HtmlContent {
+    padding-top: 20px;
+    margin-top: 20px !important;
+}
+.row-last {
+    padding-bottom: 10px;
+}
+
+/*********************** Landing Controls ******************/
+
+.HLLandingControl .heading, .HLLandingControl h2, .headerItem, .drItemSubHeader {
+    color: #ffffff;
+    background: #32525f;
+    text-align: center;
+}
+.drItemSubHeader {
+    text-align: left;
+}
+.icon-calendar .heading h2 {
+    background: url('https://www.neatcreativemedia.com/econverse/icons/icon-calendar.png') no-repeat center 10px;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+.icon-speechbubble .heading h2 {
+    background: url('https://www.neatcreativemedia.com/econverse/icons/icon-speechbubble.png') no-repeat center 10px;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+.icon-megaphone .heading h2 {
+    background: url('https://www.neatcreativemedia.com/econverse/icons/icon-megaphone.png') no-repeat center 10px;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+.icon-people .heading h2 {
+    background: url('https://www.neatcreativemedia.com/econverse/icons/icon-people.png') no-repeat center 10px;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+.icon-file .heading h2 {
+    background: url('https://www.neatcreativemedia.com/econverse/icons/icon-file.png') no-repeat center 10px;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+.icon-network .heading h2 {
+    background: url('https://www.neatcreativemedia.com/econverse/icons/icon-network.png') no-repeat center 10px;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+.icon-calendar-grey .heading h2 {
+    background: url('https://www.neatcreativemedia.com/econverse/icons/icon-calendar-grey.png') no-repeat center 10px;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+.icon-speechbubble-grey .heading h2 {
+    background: url('https://www.neatcreativemedia.com/econverse/icons/icon-speechbubble-grey.png') no-repeat center 10px;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+.icon-megaphone-grey .heading h2 {
+    background: url('https://www.neatcreativemedia.com/econverse/icons/icon-megaphone-grey.png') no-repeat center 10px;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+.icon-people-grey .heading h2 {
+    background: url('https://www.neatcreativemedia.com/econverse/icons/icon-people-grey.png') no-repeat center 10px;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+.icon-file-grey .heading h2 {
+    background: url('https://www.neatcreativemedia.com/econverse/icons/icon-file-grey.png') no-repeat center 10px;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+.icon-network-grey .heading h2 {
+    background: url('https://www.neatcreativemedia.com/econverse/icons/icon-network-grey.png') no-repeat center 10px;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+.HLLandingControl .heading {
+    color: #ffffff;
+    background: #32525f url('https://www.neatcreativemedia.com/econverse/themes/network/images/darkline.png') repeat-x bottom;
+}
+.ContentItemHtml h2 {
+    color: #ffffff;
+    background-color: #32525f;
+    /* background-image: url('https://www.neatcreativemedia.com/econverse/themes/network/images/darkline.png'); */
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+.HLLandingControl h2 {
+    padding: 20px;
+}
+.home .ContentItemHtml h2 {
+    padding: 30px;
+    margin-top: 0;
+}
+.drItemSubHeader a {
+    color: #ffffff;
+}
+.HLLandingControl .Content, .home .ContentItemHtml .Content {
+    padding-top: 20px;
+}
+.ContentUserControl .HLLandingControl, .ContentUserControl.HLLandingControl, .home .ContentItemHtml {
+    border-color: #eeeeee;
+    border-width: 0px;
+    border-style: solid;
+    background-color: transparent;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.bg-darkgray {
+    background-color: #2c292e !important;
+    color: #ffffff !important;
+    padding-bottom: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bg-darkgray .heading {
+    background: none;
+}
+.bg-darkgray h2 {
+    background: #ff970f !important;
+    text-align: center !important;
+    margin-top: -15px !important;
+    display: inline-block;
+}
+.bg-darkgray .Content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/**** slideshow ContentItemHtml reset ****/
+
+.ContentUserControl .SlideDeckWrapper .ContentItemHtml {
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+.HLLandingControl .ByLine {
+    color: #ff970f;
+    text-transform: uppercase;
+}
+.HLLandingControl h5, .HLLandingControl h4, .HLEngagement h3 {
+    color: #008fd5 !important;
+}
+.HLLandingControl .Content h3 a, .HLAnnouncements .Content h2 a, .HLRSSReader .Content h2 a {
+    color: #008fd5;
+}
+.HLLandingControl .Picture img, .Image, .img-responsive, button#BtnShowProfile, .MPheader img.welcome-profile-image {
+    -webkit-border-radius: 40px !important;
+    -moz-border-radius: 40px !important;
+    border-radius: 40px !important;
+}
+.MPheader .Image {
+    margin-right: 10px;
+    background-color: transparent;
+}
+.MPheader img.welcome-profile-image {
+    width: 50px !important;
+    height: 50px !important;
+    max-height: 50px !important;
+}
+.imgButton {
+    background-color: transparent !important;
+}
+#ProfileContainer.pull-right {
+    width: 350px;
+}
+
+/***** margin fix with profile images *******/
+
+.col-md-8 .title-row .col-md-2.col-md-2 {
+    width: 8%;
+}
+
+/***** Most Active Members *******/
+
+
+/* full width display vertical */
+
+.col-md-12 > .ContentUserControl > .HLLandingControl.HLEngagement ul.display-vertical {
+    max-height: 300px;
+    overflow: scroll;
+}
+
+/***** MAM: FULL WIDTH DISPLAY HORIZONTAL *****/
+
+.home .MPContentArea {
+    padding-bottom: 20px;
+}
+.col-md-12 > .ContentUserControl > .HLLandingControl.HLEngagement {
+    background: #474747;
+    border: none;
+}
+@media only screen and (min-width: 992px) {
+    .col-md-12 > .ContentUserControl > .HLLandingControl.HLEngagement {
+        margin: 20px -2000px 0 -2000px;
+    }
+}
+.col-md-12 > .ContentUserControl > .HLLandingControl.HLEngagement .heading {
+    background: none;
+}
+.col-md-12 > .ContentUserControl > .HLLandingControl.HLEngagement h2 {
+    background: #ff970f;
+    display: inline-block;
+    text-align: center;
+    margin-top: -15px;
+}
+.col-md-12 > .ContentUserControl > .HLLandingControl.HLEngagement .Content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.col-md-12 > .ContentUserControl > .HLLandingControl.HLEngagement ol.display-horizontal, .col-md-12 > .ContentUserControl > .HLLandingControl.HLEngagement ul.display-horizontal {
+    text-align: center;
+}
+.col-md-12 > .ContentUserControl > .HLLandingControl.HLEngagement ol.display-horizontal li, .col-md-12 > .ContentUserControl > .HLLandingControl.HLEngagement ul.display-horizontal li {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    text-align: left;
+}
+
+/************************ Tabs **********************/
+
+.nav-tabs {
+    text-align: left !important;
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+
+/************************ Miscellaneous **********************/
+
+.SloganText {
+    color: #8cc63f;
+}
+
+/************************ Menus ***********************/
+
+#SideMenu ul.level1 li ul {
+    background-color: White;
+}
+
+/******** BREADCRUMBS **********/
+
+.breadcrumb {
+    background-color: #32525f;
+    padding: 20px;
+    text-align: center;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    margin-bottom: 0;
+}
+.breadcrumb li {
+    color: #ff970f;
+}
+.breadcrumb li a {
+    color: #ff970f;
+}
+
+/************************ Bootstrap Menus ***********************/
+
+ul.nav {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    float: none;
+}
+ul.nav li {
+    display: inline-block;
+    text-align: left;
+    float: none;
+}
+ul.nav li ul.dropdown-menu li {
+    display: inline;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #5c5c5c;
+}
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus, .navbar .navbar-nav > li > a:hover
+/*, #MPButtonBar .dropdown-menu li a:hover, #MPButtonBar .dropdown-menu li a:focus*/
+
+{
+    background-color: transparent;
+    color: #8cc63f;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    color: #8cc63f;
+}
+#MPButtonBar .dropdown-menu {
+    background-color: #ffffff;
+}
+#MPButtonBar .dropdown-menu li a {
+    color: #5c5c5c;
+}
+#MPButtonBar .dropdown-menu li a:hover, #MPButtonBar .dropdown-menu li a:focus {
+    background-color: #ffffff;
+}
+#MPButtonBar .dropdown-menu .active > a, #MPButtonBar li .dropdown-menu .active > a:hover, #MPButtonBar .dropdown-menu .dropdown-submenu .active a:hover, #MPButtonBar .dropdown-submenu .dropdown-submenu .active a:hover {
+    background-color: transparent;
+    color: #8cc63f;
+}
+#MPButtonBar .dropdown-menu {
+    border: #eeeeee 1px solid;
+}
+
+/************************ Bootstrap Buttons ***********************/
+
+.btn {
+    border: none !important;
+    color: #fff;
+    padding: 10px;
+}
+button#BtnShowProfile {
+    max-height: 24px;
+}
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.col-md-4 .col-md-12 .btn-default {
+    display: block;
+}
+.col-md-4 .HLLandingControl .col-md-12, .col-md-8 .HLLandingControl .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.btn-primary, .ui-widget-content a.btn-primary, .btn-success, .btn-default {
+    background: #66952E;
+    border: none !important;
+    -webkit-border-radius: 28px !important;
+    -moz-border-radius: 28px !important;
+    border-radius: 28px !important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .open .dropdown-toggle.btn-primary, .btn-success:hover, .btn-success:focus, .btn-success:active, .open .dropdown-toggle.btn-success, .btn-default:hover, .btn-default:focus, .btn-default:active, .open .dropdown-toggle.btn-default {
+    background-color: #dcdb45;
+    border: none !important;
+    color: #ffffff;
+    -webkit-border-radius: 28px !important;
+    -moz-border-radius: 28px !important;
+    border-radius: 28px !important;
+}
+.welcome-links .btn {
+    display: inline-block;
+    margin: 5px;
+}
+.Welcome button.btn.btn-default {
+    height: 50px;
+}
+.MPheader .btn-default, #searchColumn .btn-default {
+    background-image: none;
+    color: #fff;
+    background-color: #66952E;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+.MPheader .btn-default:hover, #searchColumn .btn-default:hover, .MPheader .btn-default:focus, .MPheader .btn-default:active, .MPheader .open .dropdown-toggle.btn-default, .btn-community-stats-static:hover {
+    color: #5d5d5d;
+    background-color: #c3c3c3;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+.btn-community-stats-static, .btn-community-stats-static:hover {
+    padding: 10px;
+    background color: #fff !important;
+    color: #5D5D5D !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+h2 a.btn, h2 input {
+    font-size: 12px;
+    padding: 5px;
+}
+
+/********** FAT FOOTER *********/
+
+#MPBottomMenu.MPBottomMenu ul.FatFooterMenu {
+    padding-top: 15px;
+}
+#MPBottomMenu.MPBottomMenu ul.FatFooterMenu li a.level1 {
+    color: #8cc63f;
+}
+#MPBottomMenu.MPBottomMenu ul.FatFooterMenu li a.level1 {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+#MPBottomMenu ul.FatFooterMenu li ul.level2 {
+    padding-left: 0;
+    margin-top: 10px;
+}
+#MPBottomMenu ul.FatFooterMenu li {
+    padding-right: 30px;
+}
+#MPBottomMenu ul.FatFooterMenu li ul.level2 li a:hover {
+    color: #ff970f;
+}
+
+/******* Powered by Higher Logic Footer *******/
+
+#MPFooterLink {
+    background-color: #ff970f;
+}
+#MPFooterLink a {
+    color: #ffffff;
+}
+
+/******* Colour Picker Specifics *******/
+
+.ContentItemHtml h2 {
+    [LandingControlHeaderBackgroundColor-StartComment]background-color: [LandingControlHeaderBackgroundColor];
+    [LandingControlHeaderBackgroundColor-EndComment] [LandingControlHeaderTextColor-StartComment]color: [LandingControlHeaderTextColor];
+    [LandingControlHeaderTextColor-EndComment]
+}
+.home .ContentItemHtml {
+    [LandingControlBorderColor-StartComment]border-color: [LandingControlBorderColor];
+    [LandingControlBorderColor-EndComment] [LandingControlTextColor-StartComment]color: [LandingControlTextColor];
+    [LandingControlTextColor-EndComment] [LandingControlBackgroundColor-StartComment]background-color: [LandingControlBackgroundColor];
+    [LandingControlBackgroundColor-EndComment]
+}
+[PoweredByHigherLogicBackgroundColor-StartComment] .col-md-12 > .ContentUserControl > .HLLandingControl.HLEngagement h2 {
+    background-color: [PoweredByHigherLogicBackgroundColor];
+}
+[PoweredByHigherLogicBackgroundColor-EndComment]
