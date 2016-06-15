@@ -1,30 +1,13 @@
-Dark Orange:
-#f68026
-
-Light Orange:
-#f8a531
-
-Dark Blue:
-#004e7f
-
-Medium Blue:
-#008FDE
-
-Light blue:
-#4f99d5
-
-Gray:
-#D7D8D9
-
-Black:
-#2c292e
-
-agaGray:
-#A9AAA9
-
-#eeeeee;
-#ffffff;
-
-
-dark green:
- #66952E
+/patient-care/BarrettsEsophagus.jpg
+/patient-care/CeliacDisease.jpg
+/patient-care/Cirrhosis.jpg
+/patient-care/ClostridiumDifficileInfection.jpg
+/patient-care/Colonoscopy.jpg
+/patient-care/ColorectalCancer.jpg
+/patient-care/Constipation.jpg
+/patient-care/Crohn’sDisease.jpg
+/patient-care/CTColonography.jpg
+/patient-care/Diverticulitis.jpg
+/patient-care/Dyspepsia.jpg
+/patient-care/EoE-dietary_counseling-.jpg
+/patient-care/EosinophilicEsophagitis.jpg
