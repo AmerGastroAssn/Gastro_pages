@@ -1,87 +1,273 @@
-<div class="row">
-    <div class="col-lg-12" style="padding-top:10px;">
-        <div class="text-center">
-            <p>
-                <b>Read what past attendees have to say about the course.
-                </b>
-            </p>
-            <div class="row">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-6">
-                    <div class="quote">
-                        <i>
-                            "The course is a wonderful opportunity to remain up to date on the latest information in GI and network with other NPs and PAs working in the same area."
-                        </i>
-                    </div>
-                    <i>
-                        <div class="quote">
-                            "I attend the course because it is the best course to update and refresh my knowledge of GI issues. This is my third year attending and each year I take home new information, and reinforce my existing knowledge."
-                        </div>
-                        <div class="quote">
-                            "Attending the course helped me gain a stronger foundation for the diagnosis and management of common GI conditions that I see in consultation."
-                        </div>
-                        <div class="quote">
-                            "I have recommended this course to all my colleagues. I am new to GI and attended to obtain a better understanding of common GI diseases/conditions. This course helps me a great deal and I will definitely be back next year!"
-                        </div>
-                    </i>
-                </div>
-                <div class="col-lg-3"></div>
-            </div>
+<!doctype html>
+<html data-ember-extension="1">
+
+    <head>
+        <title>Plain text</title>
+        <!-- *-------===== http://gastrodev.org/dev/Emails/email_redesign_templates/plain_text.html =====-------* -->
+        <style type="text/css">
+            table.wrapper {}
+
+            img.resize {}
+
+            .item {}
+
+            .item img {}
+
+            .item img.disappear {}
+
+            .item img.noresize {}
+
+            .item1 {}
+
+            .item1 {
+                width: 310px !important;
+            }
+
+            .item1 {
+                width: 480px !important;
+            }
+            /* Reset Styles */
+            /* Add 100px so mobile switch bar doesn't cover street address. */
+
+            body {
+                background-color: #ffffff;
+                color: #000000;
+                margin: 0;
+                padding: 0;
+            }
+
+            img {
+                outline: none;
+                text-decoration: none;
+            }
+
+            b br,
+            br,
+            em br,
+            i br,
+            strong br {
+                line-height: 100%;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                line-height: 100% !important;
+                -webkit-font-smoothing: antialiased;
+            }
+            a:link {
+                text-decoration: none;
+                color: #008FD4!important;
+            }
+
+            h1 a,
+            h2 a,
+            h3 a,
+            h4 a,
+            h5 a,
+            h6 a {
+                color: #0A5687!important;
+            }
+            h1 a:active,
+            h2 a:active,
+            h3 a:active,
+            h4 a:active,
+            h5 a:active,
+            h6 a:active {
+                color: #0A5687!important;
+                text-decoration: underline;
+            }
+            /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+            h1 a:visited,
+            h2 a:visited,
+            h3 a:visited,
+            h4 a:visited,
+            h5 a:visited,
+            h6 a:visited {
+                color: #008FD4 !important;
+            }
+            /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+
+            table td,
+            table tr {
+                border-collapse: collapse;
+                font-family: Cambria, Charter, Georgia, 'Times New Roman', serif;
+            }
+            .yshortcuts,
+            .yshortcuts a,
+            .yshortcuts a span,
+            .yshortcuts a:hover,
+            .yshortcuts a:link,
+            .yshortcuts a:visited {
+                color: black;
+                text-decoration: none !important;
+                border-bottom: none !important;
+                background: none !important;
+            }
+            /* Body text color for the New Yahoo.  This example sets the font of Yahoo's Shortcuts to black. */
+            /* Preheader */
+
+            span.preheader {
+                display: none !important;
+            }
+
+            #preheader {
+                display: none !important;
+            }
+            @media screen and (max-width: 480px) {
+                table.wrapper {
+                    width: 310px !important;
+                }
+                img.resize {
+                    width: 310px !important;
+                    height: auto !important;
+                }
+                .item {
+                    width: 310px !important;
+                }
+                td#content.item {
+                    padding: 10px 0 10px 20px !important;
+                }
+                tr td#header.item {
+                    padding: 10px 10px 0 !important;
+                }
+                /*.item img {width: 310px !important;  height: auto !important;}*/
+                /*.item img.noresize {width: inherit !important;}*/
+                .item img.disappear {
+                    display: none !important;
+                }
+                .logotext {
+                    display: none;
+                }
+                td#seal {
+                    padding: 0 !important;
+                }
+                #forward-btn {
+                    max-width: 100px;
+                }
+                /* footer */
+                td.block {
+                    display: block !important;
+                    padding: 10px !important;
+                }
+                #account {
+                    padding: 0 !important;
+                }
+                td.social-footer {
+                    padding: 0 0.5em !important;
+                }
+                td.logo-footer {
+                    padding: 0 0 0 10px !important;
+                }
+            }
+            @media screen and (min-width: 481px) and (max-width: 699px) {
+                table.wrapper {
+                    width: 480px !important;
+                }
+                img.resize {
+                    width: 480px !important;
+                    height: auto !important;
+                }
+                .item {
+                    width: 480px !important;
+                }
+                /*.item img {width: 480px !important;  height: auto !important;}
+    .item img.noresize {width: inherit !important;}*/
+                .item img.disappear {
+                    display: none !important;
+                }
+                .logotext {
+                    display: none;
+                }
+                td#seal {
+                    padding: 0 !important;
+                }
+                #forward-btn {
+                    max-width: 100px;
+                }
+                /* footer */
+                td.block {
+                    display: block !important;
+                    padding: 10px !important;
+                }
+                #account {
+                    padding: 0 !important;
+                }
+                td.social-footer {
+                    padding: 0 0.5em !important;
+                }
+                td.logo-footer {
+                    padding: 0 0 0 10px !important;
+                }
+            }
+
+        </style>
+        <meta charset="UTF-8"/>
+        <meta content="width=device-width, initial-scale=1.0;" name="viewport"/>
+    </head>
+
+    <body>
+        <div id="preheader">Exclusive career advancement opportunity for you
+            <singleline label="PreHeader"></singleline>
         </div>
-        <table align="center" cellspacing="6" cellpadding="6" class="table table-responsive" style="width: 100%; border:1px solid #ffffff;">
+        <table width="700" cellspacing="0" cellpadding="0" border="0" align="center" style="padding:10px;" class="item">
             <tbody>
+                <!-- *%%%%%%%=== Preheader ===%%%%%%%* -->
+                <!-- *%%%%%%%=== /Preheader ===%%%%%%%* -->
                 <tr>
-                    <td class="calendar-month" style="text-align: center; vertical-align: top; height: 0px; background-color:#004e7f; color:#ffffff; padding:10px;" colspan="4">
-                        <strong>Pricing</strong>
+                    <td style="color: #000000; font-size: 16px; font-family: Cambria, Charter, Georgia, 'Times New Roman', serif; line-height: 1.5em; padding: 0;" class="item">
+                        <p style="color: #000000; font-size: 16px; font-family: Cambria, Charter, Georgia, 'Times New Roman', serif; line-height: 1.5em; padding: 0; text-align:left;">Dear Dr. %%LAST%%,</p>
+                        <p style="color: #000000; font-size: 16px; font-family: Cambria, Charter, Georgia, 'Times New Roman', serif; line-height: 1.5em; padding: 0; text-align:left;">I am excited to inform you about the
+                            <a style="text-decoration: none; color: #008FD4!important;" href="http://www.gastro.org/news_items/applications-open-2017-aga-women-s-leadership-conference">AGA Women&rsquo;s Leadership Conference</a>
+                            being held Feb. 3 and 4, 2017, in Irving, TX. This conference has been a success for the past three years in empowering women with knowledge and practical skills in leadership. As a past attendee, I can vouch firsthand for the excellent format and
+                            presentations. Since attending the conference, I have been able to implement changes that impacted my personal and professional growth.</p>
+                        <p style="color: #000000; font-size: 16px; font-family: Cambria, Charter, Georgia, 'Times New Roman', serif; line-height: 1.5em; padding: 0; text-align:left;">As a physician leader in private practice and Chair of the AGA Women&rsquo;s Leadership Council, I encourage you to
+                            <a style="text-decoration: none; color: #008FD4!important;" href="http://amergastroassn.wufoo.com/forms/aga-womens-leadership-conference-2017/">apply to attend the 2017 conference</a>. Speakers are carefully selected as are the insightful topics and interactive activities. Each track will provide you with knowledge, inspiration and connections to help you excel to the next level in your profession.</p>
+                        <p>As private practice is constantly changing, it is ever more important for female gastroenterologists to be taking active roles in leadership within their groups, regionally and through AGA.</p>
+                        <p>The deadline to apply is Sept. 1, 2016, and space is limited to 20 slots for early career participants and 20 for experienced women in GI. Please visit the
+                            <a style="text-decoration: none; color: #008FD4!important;" href="http://www.gastro.org/news_items/applications-open-2017-aga-women-s-leadership-conference">AGA website</a>
+                            to find out more about the conference, including track eligibility requirements and to
+                            <a style="text-decoration: none; color: #008FD4!important;" href="http://amergastroassn.wufoo.com/forms/aga-womens-leadership-conference-2017/">apply online</a>.</p>
+                        <p>
+                            Regards,
+                        </p>
+                        <p style="line-height: 1em;">
+                            <span style="color:#0A5687; font-weight: bold;">Latha Alaparthi, MD, FACG</span>
+                            <br/>
+                            <span>
+                                <small style="text-transform:uppercase;">Managing Partner, GCC/PACT</small>
+                            </span>
+                            <br>
+                            <small>
+                                President of Medical staff, Milford Hospital, Milford CT
+                                    <br>
+                                    Assistant Clinical Professor Yale University School of Medicine
+                                    <br>
+                                    Assistant Clinical Professor, Frank Netter School of Medicine
+                            </small>
+                        </p>
+
                     </td>
                 </tr>
                 <tr>
-                    <td class="" style="width:30%; text-align: center; vertical-align: top; background-color: #ffffff;">
-                        &nbsp;
+                    <td valign="top" bgcolor="#ffffff" align="center" style="padding:15px 0 25px 0;" class="cell" id="account">
+                        <table cellspacing="0" cellpadding="5" border="0" class="item">
+                            <tbody>
+                                <tr>
+                                    <td valign="top" align="left" style="color:#000000;font-family: Helvetica, Arial, sans-serif;font-size:10px;line-height:20px;" class="opt-out">Copyright &copy; American Gastroenterological Association &bull; To opt out of AGA emails, change your
+                                        <a style="color:#008fd4;text-decoration:none;" href="http://aga.highroadsolution.com/default.aspx?email=%%TO_EMAIL%%">email preferences</a>.</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </td>
-                    <td class="" style="width:23.33%; text-align: center; vertical-align: top; background-color: #ffffff; color:#008FDE;">
-                        <strong>Early<sup>1</sup>
-                            (By June 20)</strong>
-                    </td>
-                    <td class="" style="width:23.33%; text-align: center; vertical-align: top; background-color: #ffffff; color:#008FDE;">
-                        <strong>Standard<sup>2</sup>
-                            (By Aug. 5)</strong>
-                    </td>
-                    <td class="" style="width:23.33%; text-align: center; vertical-align: top; background-color: #ffffff; color:#008FDE;">
-                        <strong>Late/On Site
-                            (After Aug. 5)</strong>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="" style="width:30%; text-align: left; vertical-align: top; background-color: #eeeeee; border-left:1px solid #ffffff;">AGA Member&nbsp;</td>
-                    <td class="" style="width:23.33%; text-align: center; vertical-align: top; background-color: #eeeeee;">$577</td>
-                    <td class="" style="width:23.33%; text-align: center; vertical-align: top; background-color: #eeeeee;">$627</td>
-                    <td class="" style="width:23.33%; text-align: center; vertical-align: top; background-color: #eeeeee; border-right:1px solid #ffffff;">$727</td>
-                </tr>
-                <tr>
-                    <td class="" style="width:30%; text-align: left; vertical-align: top; background-color: #ffffff;">Nonmember&nbsp;</td>
-                    <td class="" style="width:23.33%; text-align: center; vertical-align: top; background-color: #ffffff;">$727</td>
-                    <td class="" style="width:23.33%; text-align: center; vertical-align: top; background-color: #ffffff;">$777</td>
-                    <td class="" style="width:23.33%; text-align: center; vertical-align: top; background-color: #ffffff;">$877</td>
                 </tr>
             </tbody>
         </table>
-        <p style="padding-left:5px;">
-            <b style="color:#004e7f;">Not an AGA Member?</b>
-            <br>
-            Submit a completed membership application with your course registration and pay the AGA member rate.
-        </p>
+        <!-- *-------===== external css =====-------* -->
+        <link href="https://s3.amazonaws.com/agaemails/stylesheets/main.css" rel="stylesheet"/>
+    </body>
 
-        <ol>
-            <li>If applying for AGA membership, application must be received by June 13, 2016 to register at the early member rate.</li>
-            <li>If applying for AGA membership, application must be received by July 29, 2016 to register at the standard member rate.</li>
-        </ol>
-
-        <p style="padding-left:5px;">
-            <b style="color:#004e7f;">Cancellation Policy</b><br>
-            A refund (less a $50 processing fee) will be given for cancellations received in writing on or before Thursday,
-            <b>July 28, 2016</b>. Please send requests to AGA Member Relations via email (<a href="mailto:member@gastro.org?subject=NPPA Cancellation">member@gastro.org</a>), fax (301-272-1774) or mail (4930 Del Ray Avenue, Bethesda, MD 20814).
-        </p>
-        <p style="padding-left:5px;">No cancellations will be accepted for refunds after July 28, 2016. Refunds cannot be made for no shows.</p>
-    </div>
-</div>
-<p>&nbsp;</p>
+</html>

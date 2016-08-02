@@ -1,130 +1,264 @@
-<h2>AGA Tools to Maximize Revenue</h2>
+<!doctype html>
+<html data-ember-extension="1">
+    <head>
+        <title>Plain text</title>
+        <!-- *-------===== http://gastrodev.org/dev/Emails/email_redesign_templates/plain_text.html =====-------* -->
+        <style type="text/css">
+            table.wrapper {}
 
-<div class="clear">&nbsp;</div>
+            img.resize {}
 
-<div class="sorter" style="position: relative; height: 1008px;">
-    <div class="box one_of_two" style="position: absolute; left: 0px; top: 0px;">
-        <div class="box_inner">
-            <div class="text_header">
-                <p>bundled payments</p>
-            </div>
+            .item {}
 
-            <div class="text_content">
-                <p>AGA develops payment models to help GIs thrive. With care bundles, providers share risk and payors reward high-quality care.&nbsp;</p>
-            </div>
+            .item img {}
 
-            <div class="button_footer">
-                <div class="button">
-                    <a href="/practice-management/quality/bundled-payment-options" target="_top">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
+            .item img.disappear {}
 
-    <div class="box one_of_two" style="position: absolute; left: 418px; top: 0px;">
-        <div class="box_inner">
-            <div class="text_header">
-                <p>nonprocedural business lines</p>
-            </div>
+            .item img.noresize {}
 
-            <div class="text_content">
-                <p>AGA offers non-procedural business lines in nutrition, geriatrics, and women&rsquo;s health, to expand practice services and boost revenue.&nbsp;</p>
-            </div>
+            .item1 {}
 
-            <div class="button_footer">
-                <div class="button">
-                    <a href="/practice-management/nonprocedural-business-lines" target="_top">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
+            .item1 {
+                width: 310px !important;
+            }
 
-    <div class="box one_of_two" style="position: absolute; left: 0px; top: 314px;">
-        <div class="box_inner">
-            <div class="text_header">
-                <p>quality demonstration</p>
-            </div>
+            .item1 {
+                width: 480px !important;
+            }
+            /* Reset Styles */
+            /* Add 100px so mobile switch bar doesn't cover street address. */
 
-            <div class="text_content">
-                <p>Use AGA&#39;s Digestive Health Reporting Program to report on quality measures and achieve payor and CMS Physician PQRS standards and incentives.</p>
-            </div>
+            body {
+                background-color: #ffffff;
+                color: #000000;
+                margin: 0;
+                padding: 0;
+            }
 
-            <div class="button_footer">
-                <div class="button">
-                    <a href="/practice-management/quality/quality-reportng/digestive-health-recognition-program-dhrp" target="_top">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
+            img {
+                outline: none;
+                text-decoration: none;
+            }
 
-    <div class="box one_of_two" style="position: absolute; left: 418px; top: 314px;">
-        <div class="box_inner">
-            <div class="text_header">
-                <p>coding tools</p>
-            </div>
+            b br,
+            br,
+            em br,
+            i br,
+            strong br {
+                line-height: 100%;
+            }
 
-            <div class="text_content">
-                <p>AGA tools help you identify missed billing opportunities, avoid costly denials and protect your profits.<br/>
-                    &nbsp;</p>
-            </div>
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                line-height: 100% !important;
+                -webkit-font-smoothing: antialiased;
+            }
+            a:link {
+                text-decoration: none;
+                color: #008FD4;
+            }
 
-            <div class="button_footer">
-                <div class="button">
-                    <a href="/practice-management/coding" target="_top">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
+            h1 a,
+            h2 a,
+            h3 a,
+            h4 a,
+            h5 a,
+            h6 a {
+                color: #0A5687!important;
+            }
+            h1 a:active,
+            h2 a:active,
+            h3 a:active,
+            h4 a:active,
+            h5 a:active,
+            h6 a:active {
+                color: #0A5687!important;
+            }
+            /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+            h1 a:visited,
+            h2 a:visited,
+            h3 a:visited,
+            h4 a:visited,
+            h5 a:visited,
+            h6 a:visited {
+                color: #008FD4 !important;
+            }
+            /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
 
-    <div class="box one_of_two" style="position: absolute; left: 0px; top: 650px;">
-        <div class="box_inner">
-            <div class="text_header">
-                <p>Price Transparency</p>
-            </div>
+            table td,
+            table tr {
+                border-collapse: collapse;
+                font-family: Cambria, Charter, Georgia, 'Times New Roman', serif;
+            }
+            .yshortcuts,
+            .yshortcuts a,
+            .yshortcuts a span,
+            .yshortcuts a:hover,
+            .yshortcuts a:link,
+            .yshortcuts a:visited {
+                color: black;
+                text-decoration: none !important;
+                border-bottom: none !important;
+                background: none !important;
+            }
+            /* Body text color for the New Yahoo.  This example sets the font of Yahoo's Shortcuts to black. */
+            /* Preheader */
 
-            <div class="text_content">
-                <p>Price transparency is a term used to describe efforts to make the price of health-care services available to consumers. The goal is to help consumers be better stewards of health-care dollars.</p>
-            </div>
+            span.preheader {
+                display: none !important;
+            }
 
-            <div class="button_footer">
-                <div class="button">
-                    <a href="/practice-management/reimbursement/price-transparency" target="_top">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="box one_of_two" style="position: absolute; left: 418px; top: 650px;">
-        <div class="box_inner">
-            <div class="text_header">
-                <p>Title</p>
-            </div>
+            #preheader {
+                display: none !important;
+            }
+            @media screen and (max-width: 480px) {
+                table.wrapper {
+                    width: 310px !important;
+                }
+                img.resize {
+                    width: 310px !important;
+                    height: auto !important;
+                }
+                .item {
+                    width: 310px !important;
+                }
+                td#content.item {
+                    padding: 10px 0 10px 20px !important;
+                }
+                tr td#header.item {
+                    padding: 10px 10px 0 !important;
+                }
+                /*.item img {width: 310px !important;  height: auto !important;}*/
+                /*.item img.noresize {width: inherit !important;}*/
+                .item img.disappear {
+                    display: none !important;
+                }
+                .logotext {
+                    display: none;
+                }
+                td#seal {
+                    padding: 0 !important;
+                }
+                #forward-btn {
+                    max-width: 100px;
+                }
+                /* footer */
+                td.block {
+                    display: block !important;
+                    padding: 10px !important;
+                }
+                #account {
+                    padding: 0 !important;
+                }
+                td.social-footer {
+                    padding: 0 0.5em !important;
+                }
+                td.logo-footer {
+                    padding: 0 0 0 10px !important;
+                }
+            }
+            @media screen and (min-width: 481px) and (max-width: 699px) {
+                table.wrapper {
+                    width: 480px !important;
+                }
+                img.resize {
+                    width: 480px !important;
+                    height: auto !important;
+                }
+                .item {
+                    width: 480px !important;
+                }
+                /*.item img {width: 480px !important;  height: auto !important;}
+            .item img.noresize {width: inherit !important;}*/
+                .item img.disappear {
+                    display: none !important;
+                }
+                .logotext {
+                    display: none;
+                }
+                td#seal {
+                    padding: 0 !important;
+                }
+                #forward-btn {
+                    max-width: 100px;
+                }
+                /* footer */
+                td.block {
+                    display: block !important;
+                    padding: 10px !important;
+                }
+                #account {
+                    padding: 0 !important;
+                }
+                td.social-footer {
+                    padding: 0 0.5em !important;
+                }
+                td.logo-footer {
+                    padding: 0 0 0 10px !important;
+                }
+            }
 
-            <div class="text_content">
-                <p>Content</p>
-            </div>
-
-            <div class="button_footer">
-                <div class="button">
-                    <a href="#" target="_top">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<p>&nbsp;</p>
-
-<div>
-    <div style="float:left;">
-        <a href="http://www.gastro.org/about/initiatives/aga-roadmap-to-the-future-of-gi-practice" target="_top"><img src="/about/initiatives/Roadmap-Icon.jpg" style="margin: 0 15px 0 0;"/></a>
-    </div>
-
-    <div style="float:left; padding-top: 13px;">
-        <span style="text-transform:uppercase; color:#00588a;">BROUGHT TO YOU AS PART OF THE</span><br/>
-        <a href="http://www.gastro.org/about/initiatives/aga-roadmap-to-the-future-of-gi-practice" style="margin: 0 15px 0 0;" target="_top">
-            <span style="font-weight:bold; font-size:1.35em;">AGA Roadmap to the Future of GI</span>
-        </a>
-    </div>
-
-    <div style="clear:both;">&nbsp;</div>
-</div>
+        </style>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0;"/>
+    </head>
+    <body>
+        <table width="700" cellspacing="0" cellpadding="0" border="0" align="center" class="item" style="padding:10px;">
+            <tbody>
+                <!-- *%%%%%%%=== Preheader ===%%%%%%%* -->
+                <!-- *%%%%%%%=== /Preheader ===%%%%%%%* -->
+                <tr>
+                    <td class="item" style="color: #000000; font-size: 16px; font-family: Cambria, Charter, Georgia, 'Times New Roman', serif; line-height: 1.5em; padding: 0">
+                        <p>Dear Dr. %%Last%%,</p>
+                        <p>Thank you for attending
+                            <a style="text-decoration: none!important; color: #008FD4!important;" href="http://ddw.org">Digestive Disease Week&reg; (DDW) 2016</a>. We hope that you expanded your network and knowledge at this year's DDW and hope you will attend again in 2017 (May 6-9, Chicago). Now that you've experienced the benefits of DDW,
+                            build on that momentum with AGA membership. As an invested individual in the GI field, I invite you to
+                            <a style="text-decoration: none!important; color: #008FD4!important;" href="http://gastro.org/join">join AGA today</a>
+                            and become a part of the largest and most established organization in gastroenterology. As a member you&rsquo;ll gain access to numerous networking and skill building opportunities while saving through special member pricing on products and events.</p>
+                        <p>When you become a part of the AGA community, the most trusted voice in GI, you will:</p>
+                        <p>%%dc_2016DDWNM2%%</p>
+                        <p>These are just some of the career-enhancing benefits you&rsquo;ll receive as an AGA member. Visit the
+                            <a style="text-decoration: none!important; color: #008FD4!important;" href="http://www.gastro.org/sign-up">membership section</a>
+                            of the AGA website for more information.</p>
+                        <p>If you have any questions, please contact AGA Member Relations at
+                            <a style="text-decoration: none!important; color: #008FD4!important;" href="http://member@gastro.org">member@gastro.org</a>
+                            or 301-941-2651. I look forward to welcoming you as an AGA member.</p>
+                        <p>Best,</p>
+                        <p style="line-height: 1em;">
+                            <span style="color:#0A5687; font-weight: bold;">
+                                Michael Camilleri, MD
+                            </span>
+                            <br/>
+                            <span style="text-transform:uppercase;">
+                                <small>Chair</small>
+                            </span>
+                            <br/>
+                            <span>
+                                <small>American Gastroenterological Association</small>
+                            </span>
+                        </p>
+                        <p style="line-height: 1.5em;"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" bgcolor="#ffffff" align="center" id="account" class="cell" style="padding:15px 0 25px 0;">
+                        <table cellspacing="0" cellpadding="5" border="0" class="item">
+                            <tbody>
+                                <tr>
+                                    <td valign="top" align="left" class="opt-out" style="color:#000000;font-family: Helvetica, Arial, sans-serif;font-size:10px;line-height:20px;">Copyright &copy; American Gastroenterological Association &bull; To opt out of AGA emails, change your
+                                        <a href="http://aga.highroadsolution.com/default.aspx?email=%%TO_EMAIL%%" style="color:#008fd4;text-decoration:none;">email preferences</a>.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- *-------===== external css =====-------* -->
+        <link rel="stylesheet" href="https://s3.amazonaws.com/agaemails/stylesheets/main.css"/>
+    </body>
+</html>
