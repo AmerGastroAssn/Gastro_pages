@@ -1,107 +1,288 @@
-<p>&nbsp;</p>
+<!doctype html>
+<html data-ember-extension="1">
+    <head>
+        <title>Plain text</title>
+        <!-- *-------===== http://gastrodev.org/dev/Emails/email_redesign_templates/plain_text.html =====-------* -->
+        <style type="text/css">
+            table.wrapper {}
 
-<div style="position: relative; padding-bottom: 56.25%; /* 16:9 */ padding-top: 25px; height: 0;">
-    <iframe
-        allowfullscreen=""
-        frameborder="0"
-        height="315"
-        src="https://www.youtube.com/embed/SngSzZvncr8?list=PLhA_KJccn18qRrWtLN9a23wlEzs5UhwPl?autoplay=0&amp;controls=0&amp;showinfo=0&amp;autohide=1"
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-        width="420"></iframe>
-</div>
+            img.resize {}
 
-<div class="clear">&nbsp;</div>
+            .item {}
 
-<h2>The Impact of GI Research</h2>
+            .item img {}
 
-<h5>Hear from six AGA members passionate about advancing GI research to provide better care to the patients of tomorrow.</h5>
+            .item img.disappear {}
 
-<div class="clear">&nbsp;</div>
+            .item img.noresize {}
 
-<div class="box">
-    <div class="box_inner">
-        <div class="text_header">
-            <p>The Stories Behind the Science</p>
+            .item1 {}
+
+            .item1 {
+                width: 310px !important;
+            }
+
+            .item1 {
+                width: 480px !important;
+            }
+            /* Reset Styles */
+            /* Add 100px so mobile switch bar doesn't cover street address. */
+
+            body {
+                background-color: #ffffff;
+                color: #000000;
+                margin: 0;
+                padding: 0;
+            }
+
+            img {
+                outline: none;
+                text-decoration: none;
+            }
+
+            b br,
+            br,
+            em br,
+            i br,
+            strong br {
+                line-height: 100%;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                line-height: 100% !important;
+                -webkit-font-smoothing: antialiased;
+            }
+            a:link {
+                text-decoration: none;
+                color: #008FD4;
+            }
+
+            h1 a,
+            h2 a,
+            h3 a,
+            h4 a,
+            h5 a,
+            h6 a {
+                color: #0A5687!important;
+            }
+            h1 a:active,
+            h2 a:active,
+            h3 a:active,
+            h4 a:active,
+            h5 a:active,
+            h6 a:active {
+                color: #0A5687!important;
+            }
+            /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+            h1 a:visited,
+            h2 a:visited,
+            h3 a:visited,
+            h4 a:visited,
+            h5 a:visited,
+            h6 a:visited {
+                color: #008FD4 !important;
+            }
+            /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+
+            table td,
+            table tr {
+                border-collapse: collapse;
+                font-family: Cambria, Charter, Georgia, 'Times New Roman', serif;
+            }
+            .yshortcuts,
+            .yshortcuts a,
+            .yshortcuts a span,
+            .yshortcuts a:hover,
+            .yshortcuts a:link,
+            .yshortcuts a:visited {
+                color: black;
+                text-decoration: none !important;
+                border-bottom: none !important;
+                background: none !important;
+            }
+            /* Body text color for the New Yahoo.  This example sets the font of Yahoo's Shortcuts to black. */
+
+            /* Preheader */
+            span.preheader {
+                display: none !important;
+            }
+            #preheader {
+                display: none !important;
+            }
+            @media screen and (max-width: 480px) {
+                table.wrapper {
+                    width: 310px !important;
+                }
+                img.resize {
+                    width: 310px !important;
+                    height: auto !important;
+                }
+                .item {
+                    width: 310px !important;
+                }
+                td#content.item {
+                    padding: 10px 0 10px 20px !important;
+                }
+                tr td#header.item {
+                    padding: 10px 10px 0 !important;
+                }
+                /*.item img {width: 310px !important;  height: auto !important;}*/
+                /*.item img.noresize {width: inherit !important;}*/
+                .item img.disappear {
+                    display: none !important;
+                }
+                .logotext {
+                    display: none;
+                }
+                td#seal {
+                    padding: 0 !important;
+                }
+                #forward-btn {
+                    max-width: 100px;
+                }
+                /* footer */
+                td.block {
+                    display: block !important;
+                    padding: 10px !important;
+                }
+                #account {
+                    padding: 0 !important;
+                }
+                td.social-footer {
+                    padding: 0 0.5em !important;
+                }
+                td.logo-footer {
+                    padding: 0 0 0 10px !important;
+                }
+            }
+            @media screen and (min-width: 481px) and (max-width: 699px) {
+                table.wrapper {
+                    width: 480px !important;
+                }
+                img.resize {
+                    width: 480px !important;
+                    height: auto !important;
+                }
+                .item {
+                    width: 480px !important;
+                }
+                /*.item img {width: 480px !important;  height: auto !important;}
+            .item img.noresize {width: inherit !important;}*/
+                .item img.disappear {
+                    display: none !important;
+                }
+                .logotext {
+                    display: none;
+                }
+                td#seal {
+                    padding: 0 !important;
+                }
+                #forward-btn {
+                    max-width: 100px;
+                }
+                /* footer */
+                td.block {
+                    display: block !important;
+                    padding: 10px !important;
+                }
+                #account {
+                    padding: 0 !important;
+                }
+                td.social-footer {
+                    padding: 0 0.5em !important;
+                }
+                td.logo-footer {
+                    padding: 0 0 0 10px !important;
+                }
+            }
+
+        </style>
+        <meta charset="UTF-8"/>
+        <meta content="width=device-width, initial-scale=1.0;" name="viewport"/>
+    </head>
+    <body>
+        <div id="preheader">
+            <singleline label="PreHeader"></singleline>
         </div>
+        <table width="700" cellspacing="0" cellpadding="0" border="0" align="center" style="padding:10px;" class="item">
+            <tbody>
+                <!-- *%%%%%%%=== Preheader ===%%%%%%%* -->
+                <!-- *%%%%%%%=== /Preheader ===%%%%%%%* -->
+                <tr>
+                    <td style="color: #000000; font-size: 16px; font-family: Cambria, Charter, Georgia, 'Times New Roman', serif; line-height: 1.5em; padding: 0" class="item">
+                        <p>
+                            <strong>Share Your Thoughts on Quality Measures That Will Work for You</strong>
+                        </p>
+                        <p>
+                            <span style="line-height: 1.5em;">AGA is the steward for the largest number of gastroenterology and hepatology measures available in national reporting programs, such as the Physician Quality Reporting System (PQRS), MIPS (Merit-based Incentive
+                                Payment System), National Quality Measures Clearinghouse (NQMC) and National Quality Forum (NQF).&nbsp;</span><br/>
+                            <br/>
+                            In continuing its measures development work, AGA has developed
+                            <a style="text-decoration: none; color: #008FD4;" target="_blank" href="http://www.gastro.org/practice-management/quality/performance-measures">two new processes</a>
+                            that will allow you to submit measure concepts that you would like AGA to consider for further development and implementation in national programs, and to offer your expertise and provide feedback on newly developed and existing measures.<br/>
+                            <br/>
+                            <strong>Call for GI and Hepatology Measures</strong><br/>
+                            As a part of its measures prioritization process, AGA requests that interested parties submit potential new measures concepts. Proposed measures concepts will be reviewed by the AGA Quality Measures Committee and considered for future measures
+                            development. This annual Call for Measures will occur on a rolling basis and will close at 4 p.m. on Aug. 31 each year for consideration in the next year&rsquo;s development cycle. AGA will publish a response to each Call for Measures on the AGA
+                            website after review and evaluation by the AGA Quality Measures Committee no later than Dec. 31, 2016.&nbsp;</p>
+                        <p>Take this&nbsp;<a style="text-decoration: none; color: #008FD4;" target="_blank" href="https://www.surveymonkey.com/r/HKGZZ58">survey</a>
+                            to share your thoughts on measures that could benefit your practice of medicine.</p>
 
-        <div class="text_content">
-            <div class="two_of_three">
-                <iframe align="left" allowfullscreen="" frameborder="0" scrolling="no" src="https://www.youtube.com/embed/r7heBeG3HXw?list=PLhA_KJccn18qRrWtLN9a23wlEzs5UhwPl" style="text-align: left; padding: 0px 20px 20px 0px;" width="200"></iframe>
+                        <p><b>Share Your Thoughts on Proposed Measures</b><br>                        
+                            AGA is also seeking comments from members, providers, consumers, the public, private purchasers and other stakeholders on proposed measures. The 30-day public comment period for the following new measures opens today,
+                            <strong>Aug. 10, 2016, at 4 p.m. ET</strong>, and will close
+                            <span style="line-height: 1.5em;">Sept. 8, 2016, a</span>
+                            <span style="line-height: 1.5em;">t 4 p.m. ET.&nbsp;</span>
+                        </p>
 
-                <p>Visit the AGA Research Foundation playlist on YouTube to see the first two videos in the &ldquo;Stories Behind the Science&rdquo; video series, featuring C. Richard Boland, MD, AGAF, and Michael Camilleri, MD, AGAF.</p>
-
-                <p>
-                    <strong>
-                        <a href="http://www.youtube.com/playlist?list=PLhA_KJccn18qRrWtLN9a23wlEzs5UhwPl" target="_top">Watch the Videos</a>
-                    </strong>
-                </p>
-            </div>
-
-            <div class="one_of_three">
-                <h5>Make a donation and help us keep the best and brightest investigators working in gastroenterology and hepatology.</h5>
-
-                <p>&nbsp;</p>
-
-                <p style="margin-left: 50px;">
-                    <a class="btn btn-large orange" href="https://co.clickandpledge.com/default.aspx?wid=75701" style="text-align: left;" target="_top">Donate</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="clear">&nbsp;</div>
-
-<div class="sorter" style="position: relative; height: 519px;">
-    <div class="box one_of_two" style="position: absolute; left: 0px; top: 0px;">
-        <div class="box_inner">
-            <div class="text_header">
-                <p>Research Awards</p>
-            </div>
-
-            <div class="text_content">
-                <p>Research awards with upcoming application deadlines include:</p>
-
-                <ul>
-                    <li>AGA-Dannon Gut Microbiome in Health Award ($20,000)</li>
-                    <li>R. Robert and Sally Funderburg Research Award in Gastric Cancer ($100,000)</li>
-                    <li>AGA Research Scholar Award ($270,000)</li>
-                    <li>AGA-Takeda Pharmaceuticals Research Scholar Award in&nbsp;Inflammatory Bowel Disease ($270,000)</li>
-                </ul>
-            </div>
-
-            <div class="button_footer">
-                <div class="button">
-                    <a href="/research-funding" target="_top">View all Awards</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Second Box -->
-
-    <div class="box one_of_two" style="position: absolute; left: 418px; top: 0px;">
-        <div class="box_inner">
-            <div class="text_header">
-                <p>Latest News</p>
-            </div>
-
-            <div class="text_content">
-                <ul>
-                    <li>
-                        <a href="http://www.gastro.org/press_releases/aga-and-pfizer-inc-call-on-scientists-to-offer-new-approaches-to-ibd-research">AGA and Pfizer Inc. Call on Scientists to Offer New Approaches to IBD Research</a>
-                    </li>
-                    <li>
-                        <a href="http://www.gastro.org/press_releases/aga-and-takeda-pharmaceuticals-u-s-a-inc-announce-new-grants-for-ibd-researchers">AGA and Takeda Pharmaceuticals U.S.A. Announce New Grants for IBD Researchers</a>
-                        &nbsp;</li>
-                    <li>
-                        <a href="http://www.gastro.org/press_releases/aga-research-foundation-announces-2016-class-of-research-award-winners">AGA Research Foundation Announces 2016 Class of Research Awards Winners</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="button_footer">
-                <!--<div class="button"><a href="../../../aga-foundation" target="_top">Read More</a></div>-->
-            </div>
-        </div>
-    </div>
-</div>
+                        <ul>
+                            <li>Patients with cirrhosis, surveillance for developing hepatocellular carcinoma.
+                                <a style="text-decoration: none; color: #008FD4;" target="_blank" href="http://www.gastro.org/practice-management/measures/hcc-surveillance">View Measure</a>
+                                |
+                                <a style="text-decoration: none; color: #008FD4;" target="_blank" href="https://www.surveymonkey.com/r/QSZRNLM">Comment Now</a>
+                            </li>
+                            <li>Endoscopy/Barrett&rsquo;s esophagus surveillance: Systematic biopsies during surveillance esophagoscopy or esophagogastroduodenoscopy (EGD) in patients with Barrett&rsquo;s esophagus without dysplasia &mdash; Adequacy of surveillance.
+                                <a style="text-decoration: none; color: #008FD4;" target="_blank" href="http://www.gastro.org/practice-management/measures/systematic-biopsies-during-surveillance-esophagoscopy-or-esophagogastroduodenoscopy-egd">View Measure</a>
+                                |
+                                <a style="text-decoration: none; color: #008FD4;" target="_blank" href="https://www.surveymonkey.com/r/QRGHXQZ">Comment Now</a>
+                            </li>
+                            <li>Endoscopy/Barrett&rsquo;s esophagus surveillance: Esophagoscopy or EGD interval for patients with non-dysplastic Barrett&rsquo;s esophagus &mdash; Avoidance of Inappropriate Use.
+                                <a style="text-decoration: none; color: #008FD4;" target="_blank" href="http://www.gastro.org/practice-management/measures/esophagoscopy-or-esophagogastroduodenoscopy-egd-interval">View Measure</a>
+                                |
+                                <a style="text-decoration: none; color: #008FD4;" href="https://www.surveymonkey.com/r/QT78P8L">Comment Now</a>
+                            </li>
+                        </ul>
+                        <div>All comments will be reviewed and considered by the AGA Quality Measures Committee and responses will be published on the AGA website after the review is complete, no later than Dec. 31, 2016. AGA is particularly interested in your feedback in
+                            the following areas:</div>
+                        <ul>
+                            <li>Usefulness of the measure in assessing and improving quality of patient care.&nbsp;</li>
+                            <li>Whether the measure accurately assesses a provider&rsquo;s performance and any unintended consequences should the measure be implemented.</li>
+                            <li>Whether data elements are readily available and can be easily extracted from electronic health records (EHR). Please indicate the specific EHR that you use.</li>
+                        </ul>
+                        <div>There is an increasing need to provide physicians and practices an opportunity to demonstrate the quality of care they provide to payors, the public and each other.&nbsp;Your participation in this process is vital to ensure that GI and
+                            hepatology performance measures are beneficial to your practice and care of patients.&nbsp;</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" bgcolor="#ffffff" align="center" style="padding:15px 0 25px 0;" class="cell" id="account">
+                        <table cellspacing="0" cellpadding="5" border="0" class="item">
+                            <tbody>
+                                <tr>
+                                    <td valign="top" align="left" style="color:#000000;font-family: Helvetica, Arial, sans-serif;font-size:10px;line-height:20px;" class="opt-out">Copyright &copy; American Gastroenterological Association &bull; To opt out of AGA emails, change your
+                                        <a style="color:#008fd4;text-decoration:none;" href="http://aga.highroadsolution.com/default.aspx?email=%%TO_EMAIL%%">email preferences</a>.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- *-------===== external css =====-------* -->
+        <link href="https://s3.amazonaws.com/agaemails/stylesheets/main.css" rel="stylesheet"/>
+    </body>
+</html>
