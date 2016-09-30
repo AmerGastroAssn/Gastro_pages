@@ -1,8 +1,8 @@
 <!doctype html>
-<html data-ember-extension="1">
+<html>
     <head>
-        <title>Plain text</title>
-        <!-- *-------===== http://gastrodev.org/dev/Emails/email_redesign_templates/plain_text.html =====-------* -->
+        <title>Hero Image - Long Form</title>
+        <!-- *-------===== http://gastrodev.org/dev/Emails/email_redesign_templates/short_form_hero_image.html =====-------* -->
         <style type="text/css">
             table.wrapper {}
 
@@ -57,9 +57,12 @@
                 line-height: 100% !important;
                 -webkit-font-smoothing: antialiased;
             }
+
+            ul {
+                text-align: left;
+            }
             a:link {
-                text-decoration: none;
-                color: #008FD4;
+                text-decoration: none!important; color: #008FD4!important;
             }
 
             h1 a,
@@ -77,6 +80,7 @@
             h5 a:active,
             h6 a:active {
                 color: #0A5687!important;
+                text-decoration: underline;
             }
             /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
             h1 a:visited,
@@ -92,7 +96,6 @@
             table td,
             table tr {
                 border-collapse: collapse;
-                font-family: Cambria, Charter, Georgia, 'Times New Roman', serif;
             }
             .yshortcuts,
             .yshortcuts a,
@@ -173,7 +176,7 @@
                     width: 480px !important;
                 }
                 /*.item img {width: 480px !important;  height: auto !important;}
-            .item img.noresize {width: inherit !important;}*/
+                  .item img.noresize {width: inherit !important;}*/
                 .item img.disappear {
                     display: none !important;
                 }
@@ -203,62 +206,312 @@
             }
 
         </style>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0;"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0;">
     </head>
+
     <body>
-        <table width="700" cellspacing="0" cellpadding="0" border="0" align="center" class="item" style="padding:10px;">
+        <!-- *%%%%%%%=== Preheader ===%%%%%%%* -->
+        <div id="preheader">
+            <singleline label="PreHeader">
+                <span style="display: none !important; font-size: 0px; color: #EAEEEF;">Reserve your spot by registering today.</span>
+            </singleline>
+        </div>
+        <!-- *%%%%%%%=== /Preheader ===%%%%%%%* -->
+        <!-- *-===== View Online =====-* -->
+        <table class="wrapper" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:5px; background-color: #EAEEEF;">
+            <tr bgcolor="#EAEEEF">
+                <td height="6"></td>
+            </tr>
+            <tr bgcolor="#EAEEEF">
+                <td align="center" bgcolor="#EAEEEF" style="color: #000000; font-family:,Helvetica,Arial,sans-serif; font-size: 11px; font-weight: 400; font-family: , Helvetica, Arial, sans-serif;">
+                    Trouble viewing this message?
+                    <a href="%%VIEWONLINE%%" style="text-decoration: none; color: #008FD4">View it online.</a>
+
+                </td>
+            </tr>
+            <tr bgcolor="#EAEEEF">
+                <td height="6"></td>
+            </tr>
+            <!-- *-------===== mso spacer =====-------* -->
+            <tr>
+                <!--[if mso]><td style="background-color: #ffffff;"><p>&nbsp;</p></td><![endif]-->
+            </tr>
+            <tr>
+                <!--[if mso]><td style="background-color: #ffffff;"><p>&nbsp;</p></td><![endif]-->
+            </tr>
+            <!-- *-------=====/mso spacer =====-------* -->
+        </table>
+        <!-- *-===== /View Online =====-* -->
+
+        <table class="wrapper" width="700" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:5px; background-color: #EAEEEF;">
+
+            <!-- *-===== Header =====-* -->
             <tbody>
-                <!-- *%%%%%%%=== Preheader ===%%%%%%%* -->
-                <!-- *%%%%%%%=== /Preheader ===%%%%%%%* -->
                 <tr>
-                    <td class="item" style="color: #000000; font-size: 16px; font-family: Cambria, Charter, Georgia, 'Times New Roman', serif; line-height: 1.5em; padding: 0">
-                        <p>Dear Dr. %%Last%%,</p>
-                        <p>Thank you for attending
-                            <a style="text-decoration: none!important; color: #008FD4!important;" href="http://ddw.org">Digestive Disease Week&reg; (DDW) 2016</a>. We hope that you expanded your network and knowledge at this year's DDW and hope you will attend again in 2017 (May 6-9, Chicago). Now that you've experienced the benefits of DDW,
-                            build on that momentum with AGA membership. As an invested individual in the GI field, I invite you to
-                            <a style="text-decoration: none!important; color: #008FD4!important;" href="http://gastro.org/join">join AGA today</a>
-                            and become a part of the largest and most established organization in gastroenterology. As a member you&rsquo;ll gain access to numerous networking and skill building opportunities while saving through special member pricing on products and events.</p>
-                        <p>When you become a part of the AGA community, the most trusted voice in GI, you will:</p>
-                        <p>%%dc_2016DDWNM2%%</p>
-                        <p>These are just some of the career-enhancing benefits you&rsquo;ll receive as an AGA member. Visit the
-                            <a style="text-decoration: none!important; color: #008FD4!important;" href="http://www.gastro.org/sign-up">membership section</a>
-                            of the AGA website for more information.</p>
-                        <p>If you have any questions, please contact AGA Member Relations at
-                            <a style="text-decoration: none!important; color: #008FD4!important;" href="http://member@gastro.org">member@gastro.org</a>
-                            or 301-941-2651. I look forward to welcoming you as an AGA member.</p>
-                        <p>Best,</p>
-                        <p style="line-height: 1em;">
-                            <span style="color:#0A5687; font-weight: bold;">
-                                Michael Camilleri, MD
-                            </span>
-                            <br/>
-                            <span style="text-transform:uppercase;">
-                                <small>Chair</small>
-                            </span>
-                            <br/>
-                            <span>
-                                <small>American Gastroenterological Association</small>
-                            </span>
-                        </p>
-                        <p style="line-height: 1.5em;"></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td valign="top" bgcolor="#ffffff" align="center" id="account" class="cell" style="padding:15px 0 25px 0;">
-                        <table cellspacing="0" cellpadding="5" border="0" class="item">
+                    <td align="center" style="background-color: #ffffff; padding: 20px 0 !important; text-align: center;">
+                        <!-- ********TABLE**********-->
+                        <table width="100" cellspacing="0" cellpadding="0" border="0" align="left" class="item">
                             <tbody>
                                 <tr>
-                                    <td valign="top" align="left" class="opt-out" style="color:#000000;font-family: Helvetica, Arial, sans-serif;font-size:10px;line-height:20px;">Copyright &copy; American Gastroenterological Association &bull; To opt out of AGA emails, change your
-                                        <a href="http://aga.highroadsolution.com/default.aspx?email=%%TO_EMAIL%%" style="color:#008fd4;text-decoration:none;">email preferences</a>.</td>
+                                    <td>
+                                        <table cellspacing="0" cellpadding="0" border="0" class="socialicons">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="left" width="150"></td>
+                                                    <td>
+                                                        <img src="https://s3.amazonaws.com/agaemails/stylesheets/spacer.gif" width="15" height="15" alt=""/>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
+                        <!-- *%%%%%%%--=== Forward btn ===--%%%%%%%* -->
+                        <table width="100" cellspacing="0" cellpadding="0" border="0" align="right" valign="top" id="forward-btn" class="item" style="padding: 5px; width: 100px; text-align: center;">
+                            <tbody>
+                                <tr>
+                                    <td width="80">
+                                        <a href="%%SSL_FORWARDTHIS%%">
+                                            <img src="https://s3.amazonaws.com/agaemails/images/redesign_assets/finals/forward-btn.png" alt="Forward" style="width: 80px;"/>
+                                        </a>
+                                    </td>
+                                    <!--<td><a href="%%SSL_FORWARDTHIS%%" style="color:#ffffff!important;font-family:Arial, sans-serif;font-size:12px;font-weight:normal; text-decoration: none; text-transform: uppercase;">FORWARD</a></td>-->
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- *%%%%%%%--===/Forward btn ===--%%%%%%%* -->
                     </td>
                 </tr>
-            </tbody>
-        </table>
-        <!-- *-------===== external css =====-------* -->
-        <link rel="stylesheet" href="https://s3.amazonaws.com/agaemails/stylesheets/main.css"/>
-    </body>
+                <!-- #######-===== row =====-####### -->
+                <tr>
+                    <td align="center" style="background-color: #ffffff; padding: 0!important; text-align: center;">
+                        <!-- ********TABLE**********-->
+                        <table width="10" cellspacing="0" cellpadding="0" border="0" align="left" class="item">
+                            <tbody>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                        <!-- ********END TABLE**********-->
+                        <!-- ********TABLE**********-->
+                        <table width="500" cellspacing="0" cellpadding="0" border="0" align="center" class="item">
+                            <tbody>
+                                <tr>
+                                    <td style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; background-color: #ffffff; vertical-align: top; padding:0 0!important; text-align:center;" class="item">
+                                        <p>
+                                            <a style="color: #008FD4; text-decoration: none;" href="http://www.RMEI.com/GImeetings">Register Now</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- ********END TABLE**********-->
+                        <!-- ********TABLE**********-->
+                        <table width="240" cellspacing="0" cellpadding="0" border="0" align="right" class="item">
+                            <tbody>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                        <!-- ********END TABLE**********-->
+                        <!-- ********TABLE**********-->
+                        <table width="20" cellspacing="0" cellpadding="0" border="0" align="left" class="item">
+                            <tbody>
+                                <tr>
+                                    <td width="10" height="1" class="item"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- ********END TABLE**********-->
+                    </td>
+                </tr>
+                <!-- *-------=====/Header =====-------* -->
+
+                <!-- *-------===== mso spacer =====-------* -->
+                <tr>
+                    <!--[if mso]><td style="background-color: #ffffff;"><p>&nbsp;</p></td><![endif]-->
+                </tr>
+                <tr>
+                    <!--[if mso]><td style="background-color: #ffffff;"><p>&nbsp;</p></td><![endif]-->
+                </tr>
+                <!-- *-------=====/mso spacer =====-------* -->
+
+                <tr>
+                    <td class="item" align="left" style="padding: 0!important; text-align: center;">
+                        <a href="http://www.RMEI.com/GImeetings">
+                            <img src="http://echo4.bluehornet.com/cimages/cac45d81daa02474c0cc98bf29e5485f/RMEI_IBD.jpg" alt="Image" width="700" height="" class="resize" style="display: inline" border="0" align="top">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table width="698" border="0" align="left" cellpadding="0" cellspacing="0" class="item">
+                            <!-- *-------===== mso spacer =====-------* -->
+                            <tr>
+                                <!--[if mso]><td style="background-color: #EAEEEF;"><p>&nbsp;</p></td><![endif]-->
+                            </tr>
+                            <!-- *-------=====/mso spacer =====-------* -->
+                            <tr>
+                                <td align="left" width="15">
+                                    <img src="https://s3.amazonaws.com/agaemails/stylesheets/spacer.gif" width="15" height="15" alt=""/>
+                                </td>
+
+                                <td
+                                    class="item"
+                                    align="center"
+                                    width="100"
+                                    style="color: #000000; font-family:Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 23px; vertical-align: top; padding: 20px 0 !important;">
+                                    <span style="font-size: 30px; line-height: 1.3em;">
+                                        <!-- #This line should be one line -->
+                                    </span>
+                                    <p style="color: #0A5687; line-height: 1.3em; font-size: 20px;">
+                                        Sunday, Sept. 11, 2016<br/>
+                                        6:30&ndash;7:45 a.m.<br/>
+                                        Hyatt Regency Grand Cypress<br/>
+                                        One Grand Cypress Boulevard<br/>
+                                        Orlando, FL 32836
+                                    </p>
+
+                                    <p style="color: #000000; font-size: 16px; font-weight: normal; text-align: left; padding-top: 20px;">Join IBD expert<a style="text-decoration: none!important; color: #008FD4!important;" target="_blank" href="http://medschool.umaryland.edu/facultyresearchprofile/viewprofile.aspx?id=5389">
+                                            Raymond Cross, MD, MS, AGAF</a>, in Orlando for a free program comparing/contrasting the latest IBD therapies and to discuss recommendations for individualized treatments that improve long-term outcomes for your patients.</p>
+                                    <p style="color: #000000; font-size: 16px; font-weight: normal; text-align: left;">
+                                        <span style="color:#0A5687; font-weight:bold; font-size:18px;">Registration</span><br/>
+                                        Register online at
+                                        <a style="text-decoration: none!important; color: #008FD4!important;" target="_blank" href="http://www.RMEI.com/GImeetings">www.RMEI.com/GImeetings</a>.</p>
+                                    <p style="color: #000000; font-size: 16px; font-weight: normal; text-align: left;">
+                                        <span style="color:#0A5687; font-weight:bold; font-size:18px;">Tentative Meeting Agenda</span><br/>
+                                        Welcome: 5 minutes<br/>
+                                        Presentation: 50 minutes<br/>
+                                        Closing remarks: 5 minutes</p>
+                                    <p style="color: #000000; font-size: 16px; font-weight: normal; text-align: left;">
+                                        <span style="color:#0A5687; font-weight:bold; font-size:18px;">Fee Information</span><br/>
+                                        There is no fee for this educational activity.</p>
+                                    <p style="color: #000000; font-size: 16px; font-weight: normal; text-align: left;">
+                                        <span style="color:#0A5687; font-weight:bold; font-size:18px;">Target Audience</span><br/>
+                                        This education program is designed for gastroenterologists and gastroenterology clinicians who manage patients with IBD.</p>
+                                    <p style="text-align: left;">
+                                        <font color="#0a5687">
+                                            <span style="font-size: 18px;">
+                                                <strong>Educational Objectives</strong>
+                                            </span>
+                                        </font><br/>
+                                        After engaging in this educational activity, learners will be to:</p>
+                                    <ul>
+                                        <li style="text-align: left;">Compare and contrast the clinical effects of IBD therapies.</li>
+                                        <li style="text-align: left;">Select individualized treatments for patients with IBD that maximize the opportunity to achieve remission and avoid relapse while minimizing toxicity.</li>
+                                        <li style="text-align: left;">Utilize available disease progression and drug monitoring strategies for patients with IBD.</li>
+                                        <li style="text-align: left;">Implement AGA practice measures in managing patients with IBD.</li>
+                                    </ul>
+                                    <p style="color: #000000; font-size: 16px; font-weight: normal; text-align: left;">
+                                        <span style="color:#0A5687; font-weight:bold; font-size:18px;">Statement of Support</span><br/>
+                                        This activity is supported by independent education grants from AbbVie, Shire and Takeda Pharmaceuticals, U.S.A., Inc.</p>
+                                    <p style="color: #000000; font-size: 16px; font-weight: normal; text-align: left;">
+                                        <span style="color:#0A5687; font-weight:bold; font-size:18px;">Provider Information</span><br/>
+                                        This activity is accredited by AGA Institute and provided by RMEI Medical Education, LLC.</p>
+                                    <p style="color: #000000; font-size: 16px; font-weight: normal; text-align: left;">
+                                        <span style="color:#0A5687; font-weight:bold; font-size:18px;">CME Information</span><br/>
+                                        The AGA Institute is accredited by the Accreditation Council for Continuing Medical Education (ACCME) to provide continuing medical education for physicians.</p>
+                                    <p style="color: #000000; font-size: 16px; font-weight: normal; text-align: left;">AGA Institute designates this live activity for a maximum of 1.0
+                                        <em>AMA PRA Category 1 Credit(s)</em>&trade;. Physicians should only claim the credit commensurate with the extent of their participation in the activity.</p>
+                                    <p style="color: #000000; font-size: 16px; font-weight: normal; text-align: left;">In accordance with ACCME's Standards for Commercial Support of Continuing Medical Education, all faculty and planning partners must disclose any financial
+                                        relationship(s) or other relationship(s) held within the last 12 months. AGA Institute implements a mechanism to identify and resolve all conflicts of interest prior to delivering the educational activity to learners.&nbsp;</p>
+
+                            </td>
+                            <td align="left" width="15">
+                                <img src="https://s3.amazonaws.com/agaemails/stylesheets/spacer.gif" width="15" height="15" alt=""/>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- *-------===== mso spacer =====-------* -->
+            <tr>
+                <!--[if mso]><td style="background-color: #EAEEEF;"><p>&nbsp;</p></td><![endif]-->
+            </tr>
+            <!-- *-------=====/mso spacer =====-------* -->
+
+            <!-- ******** FOOTER **********-->
+            <table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="item">
+                <tr>
+                    <td align="left" valign="top" bgcolor="#2c292e" class="cell">
+                        <table border="0" cellpadding="0" cellspacing="0" class="item">
+                            <tr>
+                                <td align="left" valign="middle" class="block" style="padding: 10px 0 0 30px;">
+                                    <table border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="left" valign="middle" class="logo-footer" style="">
+                                                <a href="#"><img src="https://s3.amazonaws.com/agaemails/images/redesign_assets/AGA+seal.png" alt="American Gastroenterological Association" style="padding: 0;" width="72" height="72" border="0"/></a>
+                                            </td>
+                                            <td align="left" valign="middle" style="padding: 0 0 0 20px;">
+                                                <table border="0" cellpadding="3">
+                                                    <tr>
+                                                        <td>
+                                                            <img src="https://s3.amazonaws.com/agaemailassets/cell_icon_sm.png" style="max-width: 12px; padding: 0;" alt=""/>
+                                                        </td>
+                                                        <td style="color: #ffffff; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">
+                                                            301-654-2055</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img src="https://s3.amazonaws.com/agaemailassets/pin_drop_icon_sm.png" style="max-width: 12px; padding: 0 10px 0 0;" alt=""/>
+                                                        </td>
+                                                        <td style="color: #ffffff; font-size: 12px; font-family: Helvetica, Arial, sans-serif;">4930 Del Ray Ave.
+                                                            <br/>
+                                                            Bethesda, MD 20814
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td align="left" valign="middle" class="block" id="social" style="padding: 0 0 20px 100px;">
+                                    <table border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="left" valign="top" style="color:#a9a9a9;font-family: Helvetica, Arial, sans-serif;font-size:20px;font-weight:normal; padding: 15px 0 15px 20px;" colspan="4">
+                                                Stay Connected
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top" class="social-footer" style="padding:0 10px;">
+                                                <a href="https://www.facebook.com/AmerGastroAssn?ref=hl"><img src="http://www.highroadsolution.com/clients/aga/edigest/images/facebook.gif" alt="Facebook" width="55" height="54" border="0" style="display:block;"/></a>
+                                            </td>
+                                            <td align="left" valign="top" class="social-footer" style="padding:0 10px;">
+                                                <a href="https://www.linkedin.com/grp/home?gid=915257"><img src="http://www.highroadsolution.com/clients/aga/edigest/images/instagram.gif" alt="LinkedIn" width="55" height="54" border="0" style="display:block;"/></a>
+                                            </td>
+                                            <td align="left" valign="top" class="social-footer" style="padding:0 10px;">
+                                                <a href="https://www.youtube.com/channel/UC9gs7X1GwlFAqO0fEf0Tysg"><img src="http://www.highroadsolution.com/clients/aga/edigest/images/youtube.gif" alt="YouTube" width="55" height="54" border="0" style="display:block;"/></a>
+                                            </td>
+                                            <td align="left" valign="top" class="social-footer" style="padding:0 10px;">
+                                                <a href="https://twitter.com/AmerGastroAssn?lang=en"><img src="http://www.highroadsolution.com/clients/aga/edigest/images/twitter.gif" alt="Twitter" width="55" height="54" border="0" style="display:block;"/></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" bgcolor="#1e1c20" id="account" class="cell" style="padding:15px 0 25px 0;">
+                        <table border="0" cellpadding="5" cellspacing="0" class="item">
+                            <tr>
+                                <td align="left" valign="top" class="opt-out" style="color:#ffffff;font-family: Helvetica, Arial, sans-serif;font-size:10px;line-height:20px;">
+                                    Copyright &copy; American Gastroenterological Association &bull; To opt out of AGA emails, change your
+                                    <a href="http://aga.highroadsolution.com/default.aspx?email=%%TO_EMAIL%%" style="color:#008fd4;text-decoration:none;">email preferences</a>.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- ******** END FOOTER **********-->
+        </tbody>
+    </table>
+
+    <!-- *-------===== external css =====-------* -->
+    <link rel="stylesheet" href="https://s3.amazonaws.com/agaemails/stylesheets/main.css"/>
+</body>
+
 </html>
