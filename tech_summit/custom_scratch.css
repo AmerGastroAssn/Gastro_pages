@@ -1,3 +1,4 @@
+
 .et_mobile_menu {
     background-color: #008FD4!important;
 }
@@ -6,24 +7,9 @@
     background-color: #FAA61A !important;
 }
 
-.et_pb_pricing_heading {
-    margin-bottom: 17px;
-    padding: 10px 0;
-    background-color: #1790D1;
-}
-
-/* back to top */
-
-.et_divi_100_custom_back_to_top--style-6 .et_pb_scroll_top.et-visible {
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    background-color: #2c292f;
-}
-
 /*----------------------------------------
-    Cavin
+   Cavin
 ----------------------------------------*/
-
 .et_pb_fullwidth_menu .fullwidth-menu-nav>ul {
     padding: 0px 0 0 !important;
     line-height: 1.7em;

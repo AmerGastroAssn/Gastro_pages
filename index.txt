@@ -1,4 +1,2 @@
-/about/aga-research-foundation/2700-000FND_16-15_Foundation_site_revision_v1.jpg
-/about/aga-research-foundation/2700-000FND_16-15_Foundation_site_revision_v12.jpg
-/about/aga-research-foundation/2700-000FND_16-15_Foundation_site_revision_v13.jpg
-/about/aga-research-foundation/2700-000FND_16-15_Foundation_site_revision_v14.jpg
+/patient-care/conditions/obesity/1.1_SCOPE-Assessment-Flow-Chart.pdf
+/patient-care/conditions/obesity/1.2_Intake_form_JHWMC_MS.docx

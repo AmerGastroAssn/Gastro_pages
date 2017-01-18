@@ -1,4 +1,4 @@
-Dark Orange:
+indeDark Orange:
 #f68026
 
 Light Orange:
