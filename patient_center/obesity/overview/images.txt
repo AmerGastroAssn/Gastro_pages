@@ -1,0 +1,8 @@
+/patient-care/conditions/obesity/Assessment.jpg
+/patient-care/conditions/obesity/Cornerstone.jpg
+/patient-care/conditions/obesity/Reassess_Monitoring.jpg
+/patient-care/conditions/obesity/Second_Level_Therapy.jpg
+
+/patient-care/conditions-diseases/Obesity.jpg
+/patient-care/conditions/obesity/POWER-care_cycle_FINAL.jpg.jpeg
+/patient-care/conditions/obesity/POWER-care_cycle_FINAL.jpg.jpeg.pdf

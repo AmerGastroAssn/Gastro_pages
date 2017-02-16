@@ -1,0 +1,32 @@
+Constipation:
+campaigns.gastro.org/algorithms/constipation/150-027PNQ_14-5%20Constipation%20Algorithm_v4.pdf
+
+CRC:
+    Early-detection:
+    campaigns.gastro.org/algorithms/crc/early-detection/150-027PNQ_14-3%20CRC%20Screening%20Algorithm_v1%5B1%5D.pdf
+
+    Resection:
+    campaigns.gastro.org/algorithms/crc/resection/395-001pnq_14-4postcancerresectionalgorithm_final.pdf
+
+    Surveillance:
+    campaigns.gastro.org/algorithms/crc/surveillance/150-027PNQ_14-4%20CRC%20Surveillance%20Algorithm_Final.pdf
+
+Crohns:
+campaigns.gastro.org/algorithms/crohns/crohns_aga_branded_algorithm_web.pdf
+
+HBVr:
+campaigns.gastro.org/algorithms/HBVr/pdf/HBVrCDST.pdf
+
+hcv:
+campaigns.gastro.org/algorithms/IBDCarePathway/pdf/IBDCarePathway.pdf
+
+//PICKUP FROM HERE!
+
+IBDCarePathway:
+campaigns.gastro.org/algorithms/IBDCarePathway/pdf/IBDCarePathway.pdf
+
+PancreatitisCyst:
+campaigns.gastro.org/algorithms/pancreaticcysts/pdf/PancreaticCystsCDST.pdf
+
+UlcerativeColitis:
+campaigns.gastro.org/algorithms/UlcerativeColitis/pdf/Ulcerative_Colitis_Care_Pathway.pdf

@@ -1,0 +1,96 @@
+
+p {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h5.et_pb_toggle_title {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+
+a:link {
+    color: #00588A;
+    text-decoration: none;
+}
+
+div.buy-btn:hover {
+    padding: 20px;
+    background-color: #F99B19 !important;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 3px;
+}
+
+.et_pb_fullwidth_header {
+    position: relative;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header-content>img {
+    max-width: 200px;
+    height: auto;
+}
+
+
+/*~ Back to top ~*/
+
+.et_pb_scroll_top.et-visible {
+    background-color: #A9AAA9;
+    border: 1px solid #fff;
+}
+
+
+/*~ Blue btn ~*/
+
+a>div.blue-btn {
+    font-family: Roboto, 'Roboto condensed', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    border: 1px solid #008FD4;
+    color: #fff;
+    outline-color: #fff;
+    padding: 10px;
+    background-color: #008FD4;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    vertical-align: baseline;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a>div.blue-btn:hover {
+    font-family: Roboto, 'Roboto condensed', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    border: 1px solid #f5950c;
+    color: #fff;
+    outline-color: #fff;
+    padding: 10px;
+    background-color: #f5950c;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    vertical-align: baseline;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -moz-osx-font-smoothing: grayscale;
+}

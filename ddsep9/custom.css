@@ -1,16 +1,37 @@
 p {
-    color: #000;
     font-size: 16px;
     font-family: Roboto, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
 }
 
-h1,
-h2,
-h3 {
+h1 {
     font-family: Oswald, 'Roboto Condensed' sans-serif;
     font-weight: 300;
+    font-style: normal;
+    line-height: 1.2em;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: Oswald, 'Roboto Condensed' sans-serif;
+    font-weight: 300;
+    font-size: 29px;
+    font-style: normal;
+    line-height: 1.2em;
+}
+
+h3 {
+    font-family: Oswald, 'Roboto Condensed' sans-serif;
+    font-weight: 400;    
+    font-style: normal;
+    line-height: 1.2em;
+}
+
+h4,
+h5 {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
     font-style: normal;
     line-height: 1.2em;
 }
@@ -30,12 +51,61 @@ a:link {
 }
 
 div.buy-btn:hover {
-    padding:20px; 
-    background-color: #F99B19 !important; 
-    color: #fff; 
-    text-align:center; 
-    font-size:24px; 
-    border-radius:3px;
+    padding: 20px;
+    background-color: #F99B19 !important;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 3px;
+}
+
+
+/*~  Button ~*/
+
+a>div.blue-btn {
+    font-family: Roboto, 'Roboto condensed', sans-serif;
+    font-size: 22.16px;
+    font-weight: 400;
+    line-height: 22px;
+    border: 1px solid #008FD4;
+    color: #fff;
+    outline-color: #fff;
+    padding: 13px;
+    background-color: #008FD4;
+    width: 200px;
+    text-align: center;
+    border-radius: 3px;
+    text-transform: none;
+    text-decoration: none;
+    vertical-align: baseline;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a>div.blue-btn:hover {
+    font-family: Roboto, 'Roboto condensed', sans-serif;
+    font-size: 22.16px;
+    font-weight: 400;
+    line-height: 22px;
+    border: 1px solid #f5950c;
+    color: #fff;
+    outline-color: #fff;
+    padding: 13px;
+    background-color: #f5950c;
+    width: 200px;
+    text-align: center;
+    border-radius: 3px;
+    text-transform: none;
+    text-decoration: none;
+    vertical-align: baseline;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .et_pb_fullwidth_header {
@@ -69,8 +139,15 @@ body.et-pb-preview #main-content .container tr td {
     border-top: 1px solid #eee;
 }
 
+.et_pb_scroll_top.et-visible {
+    background-color: #A9AAA9;
+    border: 1px solid #fff;
+}
 
-/*MOBILE*/
+
+/* -------------------------------------
+        MOBILE
+-------------------------------------- */
 
 
 /* ----------- iPhone 4 and 4S ----------- */
@@ -120,25 +197,27 @@ body.et-pb-preview #main-content .container tr td {
 
 /* Landscape */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {img.left-bracket {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    img.left-bracket {
         display: none!important;
     }
     img.right-bracket {
         display: none!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .left-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .center-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .right-text {
         display: block!important;
-        width:100% !important;
-    }}
+        width: 100% !important;
+    }
+}
 
 
 /* ----------- iPhone 5 and 5S ----------- */
@@ -155,21 +234,23 @@ body.et-pb-preview #main-content .container tr td {
     }
     .left-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .center-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .right-text {
         display: block!important;
-        width:100% !important;
-    }}
+        width: 100% !important;
+    }
+}
 
 
 /* Portrait */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {img.left-bracket {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    img.left-bracket {
         display: none!important;
     }
     img.right-bracket {
@@ -177,21 +258,23 @@ body.et-pb-preview #main-content .container tr td {
     }
     .left-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .center-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .right-text {
         display: block!important;
-        width:100% !important;
-    }}
+        width: 100% !important;
+    }
+}
 
 
 /* Landscape */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {img.left-bracket {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    img.left-bracket {
         display: none!important;
     }
     img.right-bracket {
@@ -199,16 +282,17 @@ body.et-pb-preview #main-content .container tr td {
     }
     .left-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .center-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .right-text {
         display: block!important;
-        width:100% !important;
-    }}
+        width: 100% !important;
+    }
+}
 
 
 /* ----------- iPhone 6 ----------- */
@@ -225,22 +309,23 @@ body.et-pb-preview #main-content .container tr td {
     }
     .left-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .center-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .right-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
 }
 
 
 /* Portrait */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {img.left-bracket {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    img.left-bracket {
         display: none!important;
     }
     img.right-bracket {
@@ -248,21 +333,23 @@ body.et-pb-preview #main-content .container tr td {
     }
     .left-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .center-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .right-text {
         display: block!important;
-        width:100% !important;
-    }}
+        width: 100% !important;
+    }
+}
 
 
 /* Landscape */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {img.left-bracket {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    img.left-bracket {
         display: none!important;
     }
     img.right-bracket {
@@ -270,16 +357,17 @@ body.et-pb-preview #main-content .container tr td {
     }
     .left-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .center-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .right-text {
         display: block!important;
-        width:100% !important;
-    }}
+        width: 100% !important;
+    }
+}
 
 
 /* ----------- iPhone 6+ ----------- */
@@ -296,15 +384,15 @@ body.et-pb-preview #main-content .container tr td {
     }
     .left-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .center-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .right-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
 }
 
@@ -320,15 +408,15 @@ body.et-pb-preview #main-content .container tr td {
     }
     .left-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .center-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .right-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
 }
 
@@ -344,14 +432,14 @@ body.et-pb-preview #main-content .container tr td {
     }
     .left-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .center-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
     .right-text {
         display: block!important;
-        width:100% !important;
+        width: 100% !important;
     }
 }
