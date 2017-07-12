@@ -1,0 +1,19 @@
+{
+  "name": "gastro_pages",
+  "version": "1.0.0",
+  "description": "Pages pertaining to American Gastroenterological Association (AGA)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbstodd/gastro_pages.git"
+  },
+  "author": "Colin Stodd (http://www.colinstodd.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbstodd/gastro_pages/issues"
+  },
+  "homepage": "https://github.com/cbstodd/gastro_pages#readme"
+}

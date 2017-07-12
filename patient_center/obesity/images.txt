@@ -1,0 +1,4 @@
+/patient-care/conditions/Assessment_398x120.jpg
+/patient-care/conditions/Cornerstone_398x120.jpg
+/patient-care/conditions/Reassessment_398x120.jpg
+/patient-care/conditions/SecondLevel_398x120.jpg

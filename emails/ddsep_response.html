@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Plain text</title>
+	<!-- *-------===== http://gastrodev.org/dev/Emails/email_redesign_templates/plain_text.html =====-------* -->
+	<style type="text/css">
+		table.wrapper {}
+		
+		img.resize {}
+		
+		.item {}
+		
+		.item img {}
+		
+		.item img.disappear {}
+		
+		.item img.noresize {}
+		
+		.item1 {}
+		
+		.item1 {
+			width: 310px !important;
+		}
+		
+		.item1 {
+			width: 480px !important;
+		}
+		/* Reset Styles */
+		/* Add 100px so mobile switch bar doesn't cover street address. */
+		
+		body {
+			background-color: #ffffff;
+			color: #000000;
+			margin: 0;
+			padding: 0;
+		}
+		
+		img {
+			outline: none;
+			text-decoration: none;
+		}
+		
+		br,
+		strong br,
+		b br,
+		em br,
+		i br {
+			line-height: 100%;
+		}
+		
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			line-height: 100% !important;
+			-webkit-font-smoothing: antialiased;
+		}
+		
+		a:link {
+			text-decoration: none; color: #008FD4!important;
+		}
+		
+		h1 a,
+		h2 a,
+		h3 a,
+		h4 a,
+		h5 a,
+		h6 a {
+			color: #0A5687!important;
+		}
+		
+		h1 a:active,
+		h2 a:active,
+		h3 a:active,
+		h4 a:active,
+		h5 a:active,
+		h6 a:active {
+			color: #0A5687!important;
+			text-decoration: underline;
+		}
+		/* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+		
+		h1 a:visited,
+		h2 a:visited,
+		h3 a:visited,
+		h4 a:visited,
+		h5 a:visited,
+		h6 a:visited {
+			color: #008FD4 !important;
+		}
+		/* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+		
+		table td,
+		table tr {
+			border-collapse: collapse;
+			font-family: Cambria, Charter, Georgia, 'Times New Roman', serif;
+		}
+		
+		.yshortcuts,
+		.yshortcuts a,
+		.yshortcuts a:link,
+		.yshortcuts a:visited,
+		.yshortcuts a:hover,
+		.yshortcuts a span {
+			color: black;
+			text-decoration: none !important;
+			border-bottom: none !important;
+			background: none !important;
+		}
+		/* Body text color for the New Yahoo.  This example sets the font of Yahoo's Shortcuts to black. */
+		/* Preheader */
+		
+		span.preheader {
+			display: none !important;
+		}
+		
+		#preheader {
+			display: none !important;
+		}
+		
+		@media screen and (max-width: 480px) {
+			table.wrapper {
+				width: 310px !important;
+			}
+			img.resize {
+				width: 310px !important;
+				height: auto !important;
+			}
+			.item {
+				width: 310px !important;
+			}
+			td#content.item {
+				padding: 10px 0 10px 20px !important;
+			}
+			tr td#header.item {
+				padding: 10px 10px 0 !important;
+			}
+			/*.item img {width: 310px !important;  height: auto !important;}*/
+			/*.item img.noresize {width: inherit !important;}*/
+			.item img.disappear {
+				display: none !important;
+			}
+			.logotext {
+				display: none;
+			}
+			td#seal {
+				padding: 0 !important;
+			}
+			#forward-btn {
+				max-width: 100px;
+			}
+			/* footer */
+			td.block {
+				display: block !important;
+				padding: 10px !important;
+			}
+			#account {
+				padding: 0 !important;
+			}
+			td.social-footer {
+				padding: 0 0.5em !important;
+			}
+			td.logo-footer {
+				padding: 0 0 0 10px !important;
+			}
+		}
+		
+		@media screen and (min-width: 481px) and (max-width: 699px) {
+			table.wrapper {
+				width: 480px !important;
+			}
+			img.resize {
+				width: 480px !important;
+				height: auto !important;
+			}
+			.item {
+				width: 480px !important;
+			}
+			/*.item img {width: 480px !important;  height: auto !important;}
+    .item img.noresize {width: inherit !important;}*/
+			.item img.disappear {
+				display: none !important;
+			}
+			.logotext {
+				display: none;
+			}
+			td#seal {
+				padding: 0 !important;
+			}
+			#forward-btn {
+				max-width: 100px;
+			}
+			/* footer */
+			td.block {
+				display: block !important;
+				padding: 10px !important;
+			}
+			#account {
+				padding: 0 !important;
+			}
+			td.social-footer {
+				padding: 0 0.5em !important;
+			}
+			td.logo-footer {
+				padding: 0 0 0 10px !important;
+			}
+		}
+	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0;">
+</head>
+
+<body>
+	<table class="item" border="0" align="center" width="700" cellpadding="0" cellspacing="0" style="padding:10px;">
+		<tbody>
+			<!-- *%%%%%%%=== Preheader ===%%%%%%%* -->
+			<div id="preheader">
+				<singleline label="PreHeader">
+					<span style="display: none !important; font-size: 0px; color: #ffffff;">Your copy of DDSEP 8 has been shipped to the address below</span>
+				</singleline>
+			</div>
+			<!-- *%%%%%%%=== /Preheader ===%%%%%%%* -->
+			<tr>
+				<td class="item" style="color: #000000; font-size: 16px; font-family: Cambria, Charter, Georgia, 'Times New Roman', serif; line-height: 1.5em; padding: 0">
+					<p>Dear Dr. Arsene,</p>
+					<p>Your copy of DDSEP 8 has been shipped to the address below:</p>
+
+<p>Dr. Diana Arsene, MD <br>
+	University of North Carolina <br>
+	4160G Bioinformatics <br>
+	CB 7555 <br>
+	Chapel Hill, NC 27599</p>
+
+<p><b>Ship Date:</b> 2/21/2017 9:41:00 AM <br>
+	<b>Tracking Number:</b> <br>
+	<b>Service:</b>  UPS <br>
+	<b>Delivery Method:</b>  2-DAY</p>
+
+<p>Your purchase of DDSEP 8 complete includes immediate access to the complete text, questions, answers and critiques in the DDSEP 8 app. You can download the app by visiting the App Store or the Google Play store. Additionally, you can access your electronic product by visiting <a style="text-decoration: none; color: #008FD4!important;" href="https://ddsep8app.gastro.org/#/signin">https://ddsep8app.gastro.org/#/signin</a>. </p>
+
+<p>Please contact <a style="text-decoration: none; color: #008FD4!important;"  href="mailto:member@gastro.org">member@gastro.org</a> if you have any questions.</p>
+
+					
+					
+				</td>
+			</tr>
+			<tr>
+				<td align="center" valign="top" bgcolor="#ffffff" id="account" class="cell" style="padding:15px 0 25px 0;">
+					<table border="0" cellpadding="5" cellspacing="0" class="item">
+						<tr>
+							<td align="left" valign="top" class="opt-out" style="color:#000000;font-family: Helvetica, Arial, sans-serif;font-size:10px;line-height:20px;">
+								Copyright &copy; American Gastroenterological Association &bull; To opt out of AGA emails, change your
+								<a href="http://aga.highroadsolution.com/default.aspx?email=%%TO_EMAIL%%" style="color:#008fd4;text-decoration:none;">email preferences</a>.
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- *-------===== external css =====-------* -->
+	<link rel="stylesheet" href="https://s3.amazonaws.com/agaemails/stylesheets/main.css" />
+</body>
+
+</html>

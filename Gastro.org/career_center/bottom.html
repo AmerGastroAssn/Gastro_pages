@@ -1,0 +1,129 @@
+<h2>MOC Requirements</h2>
+
+<p>See the summary of MOC changes listed below. The <a href="http://www.abim.org" target="_top">ABIM website</a> can provide you with more detailed information on the changing requirements and your personalized MOC status report. Log in to <a href="http://www.abim.org" target="_top">ABIM.org</a> to review your MOC status report and see your specific program requirements.</p>
+<style type="text/css">.tabbedcontent {
+		float: left;
+		clear: none;
+		width: 526px;
+		margin-bottom: 20px;
+	}
+	.tabbedcontent ul {
+		margin: 0;
+		padding: 0;
+		position: relative;
+		display: block;
+		width: 100%;
+
+	}
+	.tabbedcontent ul li {
+		margin: 0;
+		padding: 0;
+		display: block;
+		width: 100%;
+		float: left;
+		clear: both;
+	}
+	.tabbedcontent ol li {
+		display: list-item !important;
+	}
+	.tabbedcontent div {
+		background-color: #f9f7f8;
+	}
+	.tabbedcontent .tab {
+		width: 136px;
+		float: left;
+		clear: none;
+		padding: 20px;
+		border-top-left-radius: 5px;
+		margin: 0;
+		min-height: 0;
+		cursor: pointer;
+	}
+	.tabbedcontent li + li .tab {
+		border-top-left-radius: 0;
+	}
+	.tabbedcontent .tabcontent {
+		float: left;
+		clear: none;
+		display: none;
+		position: absolute;
+		left: 176px;
+		top: 0;
+		border-top-right-radius: 5px;
+		padding: 20px;
+	}
+	.tabbedcontent .tabcontent h3 {
+		border-bottom: 4px solid #dbd1d9 !important;
+		margin: 0 0 14px 0 !important;
+		padding: 0 0 14px 0;
+	}
+	.tabbedcontent p {
+		padding: 0;
+		margin: 0 0 14px 0;
+	}
+	.tabbedcontent a {
+		color: #fff;
+	}
+	.tabbedcontent .on {
+		background-color: #497abf;
+		color: #fff;
+		display: block;
+	}
+</style>
+<div class="tabbedcontent" style="height: 222px;">
+<ul>
+	<li>
+	<div class="tab on"><strong>Every 10 Years:</strong><br />
+	Board Exam</div>
+
+	<div class="tabcontent on" style="height: 222px;">
+	<h3>Every 10 Years: Board Exam</h3>
+
+	<p>Pass a secure exam once every 10 years.<br />
+	<small>Strategies for exam preparation: acquire a strong base of medical knowledge and practice answering board-style multiple choice questions.</small></p>
+	<small>The option for a 2-year assessment will begin for gastroenterologists in 2019. If you are scheduled to recertify prior to 2019, you must take the 10-year exam.</small>
+
+	<p>&nbsp;</p>
+	</div>
+	</li>
+	<li>
+	<div class="tab"><strong>Every 5 Years:</strong><br />
+	100 MOC Points</div>
+
+	<div class="tabcontent" style="height: 222px;">
+	<h3>Every 5 Years: 100 MOC Points</h3>
+
+	<p>Earn 100 MOC points every five years.</p>
+	</div>
+	</li>
+	<li>
+	<div class="tab"><strong>Every 2 Years:</strong><br />
+	Some MOC Activity</div>
+
+	<div class="tabcontent" style="height: 222px;">
+	<h3>Every 2 Years: Some MOC Activity</h3>
+
+	<p>Complete at least one MOC activity every two years.<br />
+	<small>Points earned for this activity count toward the 100 MOC points needed for the five-year requirement. Any certified MOC activity qualifies for this requirement.</small></p>
+	</div>
+	</li>
+</ul>
+</div>
+<script>
+	var maxHeight = 0;
+	$('.tabbedcontent').each(function() {
+		$(this).find('.tabcontent').each(function() {
+			maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+		});
+		$(this).height(maxHeight+40);
+		$(this).find('.tabcontent').each(function() {
+			$(this).height(maxHeight);
+		});
+	});
+
+	$('.tabbedcontent .tab').click(function() {
+		$(this).parent('li').siblings('li').children('.on').removeClass('on');  $(this).addClass('on').siblings('div').addClass('on');
+	});
+</script>
+
+<div class="clear">&nbsp;</div>

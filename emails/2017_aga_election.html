@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Plain text</title>
+    <!-- *-------===== http://gastrodev.org/dev/Emails/email_redesign_templates/plain_text.html =====-------* -->
+    <style type="text/css">
+        .item1 {
+            width: 310px !important;
+        }
+        
+        .item1 {
+            width: 480px !important;
+        }
+        /* Reset Styles */
+        /* Add 100px so mobile switch bar doesn't cover street address. */
+        
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        img {
+            outline: none;
+            text-decoration: none;
+        }
+        
+        br,
+        strong br,
+        b br,
+        em br,
+        i br {
+            line-height: 100%;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            line-height: 100% !important;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        a:link {
+            text-decoration: none;
+            color: #008FD4;
+        }
+        
+        h1 a,
+        h2 a,
+        h3 a,
+        h4 a,
+        h5 a,
+        h6 a {
+            color: #0A5687!important;
+        }
+        
+        h1 a:active,
+        h2 a:active,
+        h3 a:active,
+        h4 a:active,
+        h5 a:active,
+        h6 a:active {
+            color: #0A5687!important;
+        }
+        /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+        
+        h1 a:visited,
+        h2 a:visited,
+        h3 a:visited,
+        h4 a:visited,
+        h5 a:visited,
+        h6 a:visited {
+            color: #008FD4 !important;
+        }
+        /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+        
+        table td,
+        table tr {
+            border-collapse: collapse;
+            font-family: Cambria, Charter, Georgia, 'Times New Roman', serif;
+            line-height: 1.5em;
+        }
+        
+        .yshortcuts,
+        .yshortcuts a,
+        .yshortcuts a:link,
+        .yshortcuts a:visited,
+        .yshortcuts a:hover,
+        .yshortcuts a span {
+            color: black;
+            text-decoration: none !important;
+            border-bottom: none !important;
+            background: none !important;
+        }
+        /* Body text color for the New Yahoo.  This example sets the font of Yahoo's Shortcuts to black. */
+        /* Preheader */
+        
+        span.preheader {
+            display: none !important;
+        }
+        
+        #preheader {
+            display: none !important;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 5;
+            display: inline-block;
+            *display: inline;
+            zoom: 1;
+        }
+        
+        @media screen and (max-width: 480px) {
+            table.wrapper {
+                width: 310px !important;
+            }
+            img.resize {
+                width: 310px !important;
+                height: auto !important;
+            }
+            .item {
+                width: 310px !important;
+            }
+            td#content.item {
+                padding: 10px 0 10px 20px !important;
+            }
+            tr td#header.item {
+                padding: 10px 10px 0 10px !important;
+            }
+            /*.item img {width: 310px !important;  height: auto !important;}*/
+            /*.item img.noresize {width: inherit !important;}*/
+            .item img.disappear {
+                display: none !important;
+            }
+            .logotext {
+                display: none;
+            }
+            td#seal {
+                padding: 0px!important;
+            }
+            #forward-btn {
+                max-width: 100px;
+            }
+            /* footer */
+            td.block {
+                display: block !important;
+                padding: 10px!important;
+            }
+            #account {
+                padding: 0 !important;
+            }
+            td.social-footer {
+                padding: 0 0.5em !important;
+            }
+            td.logo-footer {
+                padding: 0 0 0 10px!important;
+            }
+        }
+        
+        @media screen and (min-width: 481px) and (max-width: 699px) {
+            table.wrapper {
+                width: 480px !important;
+            }
+            img.resize {
+                width: 480px !important;
+                height: auto !important;
+            }
+            .item {
+                width: 480px !important;
+            }
+            /*.item img {width: 480px !important;  height: auto !important;}
+            .item img.noresize {width: inherit !important;}*/
+            .item img.disappear {
+                display: none !important;
+            }
+            .logotext {
+                display: none;
+            }
+            td#seal {
+                padding: 0px!important;
+            }
+            #forward-btn {
+                max-width: 100px;
+            }
+            /* footer */
+            td.block {
+                display: block !important;
+                padding: 10px!important;
+            }
+            #account {
+                padding: 0 !important;
+            }
+            td.social-footer {
+                padding: 0 0.5em !important;
+            }
+            td.logo-footer {
+                padding: 0 0 0 10px!important;
+            }
+        }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;" />
+</head>
+
+<body>
+    <div id="preheader">
+        <singleline label="PreHeader"><span style="display: none !important; font-size: 0px; color: #ffffff;">You are invited to vote in the 2017 election.</span></singleline>
+    </div>
+    <table class="item" style="padding:10px;" width="700" cellspacing="0" cellpadding="0" border="0" align="center">
+        <tbody>
+            <tr>
+                <td class="item" style="color: #000000; font-size: 16px; font-family: Cambria, Charter, Georgia, 'Times New Roman', serif; line-height: 1.5em; padding: 0">
+                    <p>Dear Dr. %%LAST%%,</p>
+                    <p>As a voting member of the American Gastroenterological Association, you are invited to vote in the 2017
+                        election.
+                    </p>
+                    <p>As required by the AGA Bylaws, the membership was solicited to propose themselves or other eligible members
+                        for the AGA Nominating Committee to consider. The nominating committee met on Jan. 28, 2017, and
+                        considered all eligible nominees. The committee’s selections are presented in the Councillors Slate
+                        and the Nominating Committee Slate.</p>
+                    <p>A ballot is linked above, providing all voting members with the opportunity to vote by April 12, 2017,
+                        for candidates for basic research councillor, practice councillor, early career practice member of
+                        the 2017-2018 AGA Nominating Committee, early career research member of the 2017-2018 nominating
+                        committee, and for four of the eight remaining candidates for the 2017-2018 nominating committee.
+                        Please join us at the AGA Annual Business Meeting during DDW® in Chicago on May 8 at 2 p.m. in Room
+                        E350, McCormick Place, when the election results will be announced.</p>
+                    <p>We are also pleased to announce the 2017-2018 officers. This is provided for your information only, not
+                        for voting.</p>
+         
+                    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                        <tr align="left">
+                            <th style="text-align:left;">AGA</th>
+                            <th style="text-align:left;">AGA Institute</th>
+                        </tr>
+                        <tr>
+                            <td>Chair: Timothy C. Wang, MD, AGAF</td>
+                            <td>President: Sheila E. Crowe, MD, AGAF</td>
+                        </tr>
+                        <tr>
+                            <td>Chair Elect: Sheila E. Crowe, MD, AGAF</td>
+                            <td>President Elect: David A. Lieberman, MD, AGAF</td>
+                        </tr>
+                        <tr>
+                            <td>Vice Chair: David A. Lieberman, MD, AGAF</td>
+                            <td>Vice President: Hashem B. El-Serag, MD, MPH, AGAF</td>
+                        </tr>
+                        <tr>
+                            <td>Secretary/Treasurer: Francis M. Giardiello, MD, AGAF</td>
+                            <td>Secretary/Treasurer: Francis M. Giardiello, MD, AGAF</td>
+                        </tr>
+                        <tr>
+                            <td>Secretary/Treasurer Elect: Lawrence S. Kim, MD, AGAF</td>
+                            <td>Secretary/Treasurer Elect: Lawrence S. Kim, MD, AGAF</td>
+                        </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <!-- *%%%%%%%--=== button ===--%%%%%%%* -->
+                    <div style="margin: 0 auto;" align="center">
+                        <table style="background-color: #0A5687; padding: 5px 10px; border-radius: 30px; width: 130px; text-align: center;">
+                            <tr>
+                                <td>
+                                    <a href="https://netforum.gastro.org/eweb/DynamicPage.aspx?WebKey=a99ab08d-4ded-42c2-8194-5e84eab85650" style="color:#ffffff!important;font-family:Arial, sans-serif;font-size:16px;font-weight:normal; text-decoration: none; text-transform: uppercase;">
+                                        <span style="color:#ffffff;">VOTE</span> </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <br/>
+                    <!-- *%%%%%%%--===/button ===--%%%%%%%* -->
+                </td>
+            </tr>
+            <tr>
+                <td id="account" class="cell" style="padding:15px 0 25px 0;" valign="top" bgcolor="#ffffff" align="center">
+                    <table class="item" cellspacing="0" cellpadding="5" border="0">
+                        <tbody>
+                            <tr>
+                                <td class="opt-out" style="color:#000000;font-family: Helvetica, Arial, sans-serif;font-size:10px;line-height:20px;" valign="top"
+                                    align="left">Copyright &copy; American Gastroenterological Association &bull; To opt out of AGA emails,
+                                    change your <a href="http://aga.highroadsolution.com/default.aspx?email=%%TO_EMAIL%%"
+                                        style="color:#008fd4;text-decoration:none;">email preferences</a>.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- *-------===== external css =====-------* -->
+    <!--<link rel="stylesheet" href="https://s3.amazonaws.com/agaemails/stylesheets/main.css" />-->
+</body>
+
+</html>
