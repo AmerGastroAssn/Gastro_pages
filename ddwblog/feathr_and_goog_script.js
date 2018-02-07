@@ -18,7 +18,7 @@ feathr_account_id = "5818fc487c1fea1278ec944e";
 
 
 //  NEW
-<script> 
+<script type="text/javascript"> 
 !​f​u​n​c​t​i​o​n​(​f​,​e​,​a​,​t​,​h​,​r​)​{​i​f​(​!​f​[​h​]​)​{​r​=​f​[​h​]​=​f​u​n​c​t​i​o​n​(​)​{r.invoke? 
 r​.​i​n​v​o​k​e​.​a​p​p​l​y​(​r​,​a​r​g​u​m​e​n​t​s​)​:​r​.​q​u​e​u​e​.​p​u​s​h​(​a​r​g​u​m​e​n​t​s​)}, 
 r.queue=[],r.loaded=1*new Date,r.version="1.0.0", 
@@ -29,17 +29,22 @@ g.async=!0,g.src=t,h.appendChild(g)}
 
 feathr("fly", "5818fc487c1fea1278ec944e"); 
 feathr("sprinkle", "page_view"); 
-</script>
 
+// Google Analytics
 
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-767255-8', 'auto');
   ga('send', 'pageview');
+</script>
+
+
+
+<script>
+  
 
 </script>
+

@@ -1,0 +1,35 @@
+{
+  "uid": "qsDUcv4Y7YRaD7v0oyg6VNRXeK82",
+  "displayName": "Colin Stodd",
+  "photoURL":
+    "https://lh3.googleusercontent.com/-SB8H6cTxa5g/AAAAAAAAAAI/AAAAAAAAAuE/T4OoAB_MRU4/photo.jpg",
+  "email": "cbstodd@gmail.com",
+  "emailVerified": true,
+  "phoneNumber": null,
+  "isAnonymous": false,
+  "providerData": [
+    {
+      "uid": "109501197788979151904",
+      "displayName": "Colin Stodd",
+      "photoURL":
+        "https://lh3.googleusercontent.com/-SB8H6cTxa5g/AAAAAAAAAAI/AAAAAAAAAuE/T4OoAB_MRU4/photo.jpg",
+      "email": "cbstodd@gmail.com",
+      "phoneNumber": null,
+      "providerId": "google.com"
+    }
+  ],
+  "apiKey": "AIzaSyCVmp6Vohzi4iR5f3EpvVOCynKqe4M9BVk",
+  "appName": "[DEFAULT]",
+  "authDomain": "colper-club.firebaseapp.com",
+  "stsTokenManager": {
+    "apiKey": "AIzaSyCVmp6Vohzi4iR5f3EpvVOCynKqe4M9BVk",
+    "refreshToken":
+      "AEoYo8uyurNgVPx2_bcBMy3D-__31AlfR91_M7ejtCG2E-j4DxJtLR38J3gbx1etfwjksAN8hIdCjhPL3exHJiLhHuIh07rm29MihBsCDRNmSTpQI77gV7qXVDWt2PbBj82C6jSzn-83D6_s9Bemr3Qbks6dtn0nOcOSIZk_wQ5vWyRT7MZl9DCWHe1mypUfoIFw865P0Of8Vw8Op1Y9XPKvGWa1kPmQ7D6cVTZW8u4utjKMePlCNV8DOTeKb39l2ComqKK_4-hbZLqlivLDwpGyoXDrxpcb1lGOEpl2zhSShalolv3x8dAYbbIBrnma1CQ_4eGX3gl5a3ajqfA1QlBCVesOtJxEuA",
+    "accessToken":
+      "eyJhbGciOiJSUzI1NiIsImtpZCI6IjgxYWFjMDQyM2NkYTNlYjk0OWY5MjM2ZTdmZjAzN2ZmMjZjMmY2NzQifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY29scGVyLWNsdWIiLCJuYW1lIjoiQ29saW4gU3RvZGQiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tLy1TQjhINmNUeGE1Zy9BQUFBQUFBQUFBSS9BQUFBQUFBQUF1RS9UNE9vQUJfTVJVNC9waG90by5qcGciLCJhdWQiOiJjb2xwZXItY2x1YiIsImF1dGhfdGltZSI6MTUxMzQ2MTk3MSwidXNlcl9pZCI6InFzRFVjdjRZN1lSYUQ3djBveWc2Vk5SWGVLODIiLCJzdWIiOiJxc0RVY3Y0WTdZUmFEN3Ywb3lnNlZOUlhlSzgyIiwiaWF0IjoxNTEzNDYxOTcxLCJleHAiOjE1MTM0NjU1NzEsImVtYWlsIjoiY2JzdG9kZEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTUwMTE5Nzc4ODk3OTE1MTkwNCJdLCJlbWFpbCI6WyJjYnN0b2RkQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.Iv9Nn75Lilo9rThi9qEGIplIa89Jln4-l3quhkclAASwDENGv6fnp9qogoqnqBNOF-krXLjrYb_PnwqDZWkuvg-MacAVnuNVoW0Vx6t53QZh_X-9O_T391Mt0zXnxLVtd7gqnLpG0SULe5sNqh2RV1dK1R8eXYP1HvTBVXEswq-4M_DcYUy6In7R8XbolchmeAdtPFou9kxdDizy_V8C42YYY4QwcAb9f9hvH2kXojmNgQBsawwlnoa7oAyj5H-nIM0IpyOk8l9rEoLFZ5v-8Hz3F4sd9ewhC4dElmPa93P-KconcUKiaVEpeYuO5sCaXhSyIkuVL12dzZNEleIy6A",
+    "expirationTime": 1513465570777
+  },
+  "redirectEventId": null,
+  "lastLoginAt": "1513461971000",
+  "createdAt": "1513461971000"
+}
