@@ -1,0 +1,576 @@
+@charset "utf-8";
+@charset "utf-8";
+/* Solves funky line breaks with hlcommonseach */
+
+.break-word-all {
+    word-break: keep-all;
+}
+
+/******* Event Control Styles *******/
+
+.home .HLLandingControl.HLEventList .form-group {
+    display: block;
+}
+
+.date-block, .event-list .date-block {
+    background-color: transparent;
+    border: 3px solid #008fd5;
+    width: 100%;
+    margin-left: -10px;
+}
+
+.event-list .calendary-number {
+    font-size: 50px;
+    margin: 0;
+}
+
+.calendar-day {
+    display: none;
+}
+
+.calendary-number {
+    font-size: 40px;
+    font-weight: 600;
+    margin: -5px;
+    color: #008fd5;
+}
+
+.calendar-month {
+    text-transform: uppercase;
+    background-color: #008fd5;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 5px 2px;
+}
+
+.event-list .calendar-month {
+    font-size: 115%;
+}
+
+.home .HLEventList .Content .col-md-2 {
+    width: 30%;
+}
+
+.home .HLEventList .Content .col-md-10 {
+    width: 70%;
+}
+
+.home .HLEventList .Content .col-md-10 .title-row {
+    padding-left: 10px;
+}
+
+.HLLandingControl .ByLine {
+    color: #9d9d9d;
+    text-transform: uppercase;
+}
+
+.HLLandingControl .Content h3 a, .HLAnnouncements .Content h2 a, .HLRSSReader .Content h2 a {
+    color: #00588a !important;
+}
+
+.HLLandingControl .Content h3 a:hover, .HLAnnouncements .Content h2 a:hover, .HLRSSReader .Content h2 a:hover {
+    color: #1c2020;
+    text-decoration: none;
+}
+
+.MPheader .Image {
+    margin-right: 0px;
+    background-color: transparent;
+}
+
+.MPheader img.welcome-profile-image {
+    width: 50px !important;
+    height: 50px !important;
+    max-height: 50px !important;
+}
+
+.imgButton {
+    background-color: transparent !important;
+}
+
+#ProfileContainer.pull-right {
+    width: 380px;
+}
+
+.btn.btn-primary.margin-bottom-small {
+    background-repeat: no-repeat;
+    background-position: right;
+    display: inline-block;
+}
+
+.POST-CLASS [id*="BtnSave"].btn-primary {
+    font-size: 130%;
+    font-weight: 700;
+}
+
+.POST-CLASS [id*="BtnSave"].btn-default {
+    font-size: 70%;
+}
+
+.glyphicon.glyphicon-paperclip {
+    width: .5em;
+}
+
+.glyphicon.glyphicon-new-window {
+    color: transparent;
+}
+
+/******* Carousel header landing controls *******/
+
+#MPheader {
+    background-color: #ffffff !important;
+}
+
+.home .content-overlap {
+    position: relative;
+    z-index: 0;
+}
+
+.carousel-inner {
+    visibility: visible;
+    margin-left: -25px;
+}
+
+.carousel-inner div.col-md-4 {
+    margin-left: 25px !important;
+}
+
+.home .MPContentArea .row-full .bg-color {
+    background-color: #0076b2 !important;
+    color: #ffffff !important;
+}
+
+.carousel-inner > .active {
+    display: inline;
+}
+
+/******* Fat footer *******/
+
+.bg-footer {
+    background-color: 2 c292f !important;
+    color: a9a9a9 !important;
+    border: none;
+    font-family: "nimbus-sans-condensed", "roboto condensed", sans-serif !important;
+    margin-top: 0;
+    position: relative;
+    padding: 15px;
+}
+
+#MPOuterFooter {
+    background-color: #131e2d !important;
+    border: none;
+    color: #a9a9a9 !important;
+    font-family: "nimbus-sans-condensed", "roboto condensed", sans-serif !important;
+    margin-top: 0;
+    position: relative;
+    padding: 15px;
+}
+
+#MPOuterFooter .social a {
+    display: block;
+    width: 66px;
+    height: 65px;
+    float: left;
+    clear: none;
+    margin-right: 10px
+}
+
+#MPOuterFooter .social a.fb {
+    background: transparent url(http://www.gastro.org/assets/icon-socials.png) no-repeat 0 -65px
+}
+
+#MPOuterFooter .social a.fb:hover {
+    background-position: 0 0
+}
+
+#MPOuterFooter .social a.li {
+    background: transparent url(http://www.gastro.org/assets/icon-socials.png) no-repeat -66px -65px
+}
+
+#MPOuterFooter .social a.li:hover {
+    background-position: -66px 0
+}
+
+#MPOuterFooter .social a.yt {
+    background: transparent url(http://www.gastro.org/assets/icon-socials.png) no-repeat -132px -65px
+}
+
+#MPOuterFooter .social a.yt:hover {
+    background-position: -132px 0
+}
+
+#MPOuterFooter .social a.tw {
+    background: transparent url(http://www.gastro.org/assets/icon-socials.png) no-repeat -198px -65px
+}
+
+#MPOuterFooter .social a.tw:hover {
+    background-position: -198px 0
+}
+
+#MPOuterFooter .social a.ds {
+    background: transparent url(http://www.gastro.org/assets/icon-socials.png) no-repeat -264px -65px
+}
+
+#MPOuterFooter .social a.ds:hover {
+    background-position: -264px 0
+}
+
+#MPOuterFooter .utility {
+    float: left;
+    clear: both;
+    width: 100%;
+    background-color: #1e1c20;
+    padding: 28px 0;
+    margin-top: 98px
+}
+
+#MPOuterFooter a {
+}
+
+#MPOuterFooter a:hover {
+}
+
+div.ContentItemHtml.bg-footer {
+    background-color: transparent !important;
+}
+
+/******* Top nav *******/
+
+#NAV.stickyNav-wide {
+       
+    max-width: 100% !important;
+}
+
+/******* header *******/
+
+#MPheader {
+    background: #fff !important;
+}
+
+#MPOuterHeader {
+    background-position: center center;
+    background-size: cover;
+    Background: #fff;
+}
+
+#MPOuterHeader > .col-md-12 {
+    padding: 0;
+}
+
+#MPOuterMost.full #HEADER, #MPOuterMost.full #BreadCrumb, #MPOuterMost.full #FOOTER, #MPOuterMost.full #MPButtonBar, #MPOuterHeader.stickyNav-wide, #NAV.stickyNav-wide {
+    max-width: 100%;
+}
+
+.btn-group {
+    margin: 5px;
+}
+
+/***** MOBILE SPECIFIC ******/
+
+@media screen and (max-width: 768px) {
+
+    .MPheader .SloganText.inline span {
+        font-size: 200%;
+        display: block;
+    }
+
+    .MPheader .SloganText.inline {
+        display: block;
+        font-size: 150%;
+        width: 100%;
+        max-width: none;
+        text-align: center;
+    }
+
+    ul.nav {
+        text-align: left;
+        margin-top: 0;
+    }
+
+    ul.nav li {
+        display: block;
+        padding-bottom: 0;
+    }
+
+    #MPBottomMenu.MPBottomMenu ul.FatFooterMenu > li {
+        min-height: 0;
+        display: block;
+        padding-top: 0px;
+        border: none;
+    }
+
+    .collapse-tabs-control {
+        display: inline-block !important;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .MPheader .SloganText.inline {
+        font-size: 125%;
+    }
+}
+
+/******* h4 homepage ******/
+
+.home .ContentItemHtml h4 {
+    font-size: 120%;
+}
+
+#MessageListContainer h4 {
+    color: #008fd5 !important;
+}
+
+/******* full-width feature override ******/
+
+.bg-darkgray h2 {
+    margin-top: -45px !important;
+}
+
+.bg-darkgray {
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+}
+
+.bg-color {
+    margin-top: 0 !important;
+}
+
+ul.nav .bg-orange {
+    background-color: #f58026;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/****** messages alert button fixes ******/
+
+.btn.btn-sm.alert-warning {
+    padding: 10px;
+    color: #00588a;
+    white-space: normal !important;
+}
+
+.alert-info, .alert-warning {
+    background-color: #d9eef9;
+    border-color: transparent !important;
+    color: #00588a !important;
+}
+
+.alert-success {
+    color: #fff;
+    background-color: #66952E;
+}
+
+.label-success {
+    background-color: #00588a;
+}
+
+#MainCopy_ctl06_ucMessageList_rptMessageList_pinned_0, #MainCopy_ctl06_ThreadClosedNotification {
+    color: #00588a;
+}
+
+.btn.btn-sm.inline.alert-warning {
+    color: #00588a !important;
+}
+
+.btn.disabled.bg-warning.small {
+    color: #00588a;
+    white-space: normal !important;
+}
+
+.btn.btn-default.btn-xs.btn-edit, .btn.btn-default.btn-xs.btn-delete {
+    background-color: transparent !important;
+}
+
+.has-success .help-block, .has-success .control-label {
+    color: #468847;
+    font-weight: 800;
+}
+
+a#MainCopy_ctl02_CommunityDescriptionDashboard1_CommunityManagementGear_LeaveCommunityLink_ucPermissionJoin_lnkLeaveCommunityMngmtGear.btn.btn-sm, a#MainCopy_ctl02_CommunityDescriptionDashboard1_CommunityManagementGear_ChangeLink.btn.btn-sm {
+    color: #2c292f;
+}
+
+.btn.btn-sm.btn-default-override, .btn.btn-sm.btn-default-override, btn-recommend.no {
+    color: #2c292f;
+    background-color: #fff;
+    border-color: #464646 !important;
+}
+
+div.text-right.padding-top-medium {
+    padding-top: 0px;
+}
+
+.glyphicon.glyphicon-paperclip {
+    color: #F58220;
+}
+
+.community-notifications .glyphicon.transparent {
+    color: #ffffff;
+}
+
+/*******profile **********/
+
+.interior h2#Title {
+    padding: 0 !important;
+}
+
+.no-pageTitle-padding {
+    padding: 0;
+
+}
+
+.btn.btn-default.btn-xs.btn-edit {
+    color: #008fd5 !important;
+}
+
+.well-sm {
+    padding: 25px;
+    display: inline-block;
+    text-align: left;
+}
+
+div.row.MyNetworksControl {
+    margin-top: 15px;
+}
+
+ul#MainCopy_ctl32_ProfileTabList {
+    margin-top: 20px;
+}
+
+#MainCopy_ct130_ProfileCaret.caret, #MainCopy_ct130_ConnectionsCaret.caret, #MainCopy_ct130_ContributionsCaret.caret, #MainCopy_ct130_AccountCaret.caret {
+    border-top-color: #00588A !important;
+}
+
+/******** dropdown toggle padding fix ******/
+
+.btn.dropdown-toggle.btn-default {
+    margin: 0px !important;
+    color: #fff !important;
+    background-color: #00588A !important;
+
+}
+
+.dropdown-menu .active > a, li .dropdown-menu .active > a:hover {
+    color: #fff;
+    background-color: #00588A;
+}
+
+.modal-body, .panel-body {
+    background-color: #DEE0E0;
+}
+
+/******** Interior page display fix *****/
+
+.interior #ContentColumn.col-md-12 {
+    padding: auto;
+    align-content: center center;
+}
+
+.interior div#MainCopy_ContentWrapper {
+    padding-top: 20px;
+}
+
+.row-wide {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+div.row.heading.margin-bottom-small {
+    background-color: #FFF;
+}
+
+/******* Colour Picker Specifics *******/
+
+.ContentItemHtml h2 {
+    background-color: #2C292F;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+/********* Table/directory fix ********/
+
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    display: inline-block !important;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #ffffff;
+    background-color: #008fd5;
+
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 2;
+    color: #ffffff;
+    background-color: #008fd5;
+    border-color: #008fd5;
+    cursor: default;
+}
+
+.dropdown-menu > li > a {
+    background-color: transparent;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    #a.dropdown-toggle, .li.dropdown.pull-right.tabdrop.hide, .li.dropdown.pull-right.tabdrop.hide.open, .nav-tabs .glyphicon:not(.no-margin) {
+        color: #FFFFFF !important;
+        background-color: transparent;
+        border-top-color: #fff;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    #a.dropdown-toggle, .li.dropdown.pull-right.tabdrop.hide, .li.dropdown.pull-right.tabdrop.hide.open, .nav-tabs .glyphicon:not(.no-margin) {
+        color: #FFFFFF !important;
+        background-color: transparent;
+        border-top-color: #fff;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    #a.dropdown-toggle, .li.dropdown.pull-right.tabdrop.hide, .li.dropdown.pull-right.tabdrop.hide.open, .nav-tabs .glyphicon:not(.no-margin) {
+        color: #FFFFFF !important;
+        background-color: transparent;
+        border-top-color: #fff;
+    }
+}
+
+/*******User Control bullet point fix******/
+
+.HLLandingControl ol li, .HLLandingControl ul li {
+    margin-bottom: 15px;
+    border-bottom: dotted 1px #afb1b3;
+
+}
+
+.interior div.HLLandingControl.HLWebControl {
+    border-color: #fff;
+    border-width: px;
+    border-style: solid;
+    background-color: #fff;
+    padding: 0px;
+    padding-bottom: 0;
+    margin-top: 0px;
+}
+
+div#MainCopy_ctl13_ContentPanel ol li, div#MainCopy_ctl13_ContentPanel ul li {
+    display: -webkit-box;
+}
+
+/*******Library item description fix******/
+
+div#MainCopy_ctl41_DocumentFileListView_DocDescription_0 {
+    font-size: 14px;
+}
+
+div#MainCopy_ctl41_DocumentFileListView_DocumentTitleLink_0 {
+    font-size: 14px;
+}
+
+/* CSS Document *//* CSS Document */

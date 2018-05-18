@@ -1,46 +1,53 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<style type="text/css">
-.carousel-control.left {
-    background-image: none !important;
-    background-image: none !important;
-    background-image: none !important;
-    background-image: none !important;
-    filter: none !important;
-    background-repeat: none !important;
+footer .social a {
+  display: block;
+  width: 66px;
+  height: 65px;
+  float: left;
+  clear: none;
+  margin-right: 10px;
 }
 
-.carousel-control.right {
-    right: 0;
-    left: auto;
-    background-image: none !important;
-    background-image: none !important;
-    background-image: none !important;
-    background-image: none !important;
-    filter: none !important;
-    background-repeat: none !important;
+footer .social a.fb {
+  background: transparent
+    url(https://s3.amazonaws.com/agaassets/images/icon-socials2.png) no-repeat 0 -65px;
 }
 
-p.video-caption {
-    font-size: 1.1em;
-    line-height: 1.5em;
-    margin: 1em;
-    padding: 1em;
-    overflow: visible;
-    overflow-wrap: break-word;
-    max-width: 810px !important;
+footer .social a.fb:hover {
+  background-position: 0 0;
 }
 
-.label {
-    display: inline;
-    padding: .2em .6em .3em;
-    font-size: 100% !important;
-    font-weight: 700;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25em;
+footer .social a.li {
+  background: transparent
+    url(https://s3.amazonaws.com/agaassets/images/icon-socials2.png) no-repeat -66px -65px;
 }
-</style>
+
+footer .social a.li:hover {
+  background-position: -66px 0;
+}
+
+footer .social a.yt {
+  background: transparent
+    url(https://s3.amazonaws.com/agaassets/images/icon-socials2.png) no-repeat -132px -65px;
+}
+
+footer .social a.yt:hover {
+  background-position: -132px 0;
+}
+
+footer .social a.tw {
+  background: transparent
+    url(https://s3.amazonaws.com/agaassets/images/icon-socials2.png) no-repeat -198px -65px;
+}
+
+footer .social a.tw:hover {
+  background-position: -198px 0;
+}
+
+footer .social a.ds {
+  background: transparent
+    url(https://s3.amazonaws.com/agaassets/images/icon-socials2.png) no-repeat -264px -65px;
+}
+
+footer .social a.ds:hover {
+  background-position: -264px 0;
+}
